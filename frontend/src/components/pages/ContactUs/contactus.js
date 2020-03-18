@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../../navbar/navbar.js';
+
 
 function ContactUs (){
     return(
-        <h1>Welcome to ContactUs</h1>
+        <>
+            <Navbar />
+            <h1>Welcome to ContactUs</h1>
+        </>
     )
 }
 export default ContactUs;

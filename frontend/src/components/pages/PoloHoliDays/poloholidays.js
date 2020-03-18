@@ -1,8 +1,12 @@
 import React from 'react';
+import Navbar from '../../navbar/navbar.js';
 
 function PoloHoliDays (){
     return(
-        <h1>Welcome to PoloHoliDays!</h1>
+        <>
+            <Navbar />
+            <h1>Welcome to PoloHoliDays!</h1>
+        </>
     )
 }
 
