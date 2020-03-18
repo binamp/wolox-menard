@@ -1,2 +1,0 @@
-# Wolox - Binamp
-## Frontend
