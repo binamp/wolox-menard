@@ -2,6 +2,7 @@
     border-radius: 5px;
     border: 2px solid #EED2AC;
     color:#D9B081;
+    background-color:transparent;
     display: block;
     font-family: Oswald;
     font-size: 20px;
@@ -11,8 +12,6 @@
     transition: .3s;
     width: 390px;
     height: 40px;
-    padding-block-start: 9px;
-    margin-block-start: 100px;
   }
   
   .boton:hover {

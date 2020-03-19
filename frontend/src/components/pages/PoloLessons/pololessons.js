@@ -6,8 +6,7 @@ import style from './style.module.scss';
 
 function PoloLessons () {
     return(
-
-                <div>
+            <header>
                     <div className={style.contenedor1}>
                         <div className={style.fila}>
                           <Container/>
@@ -17,7 +16,7 @@ function PoloLessons () {
                          <Container3 />
                          <Footer />
                     </div>
-                  </div>
+                 </header>
     )
 }
 

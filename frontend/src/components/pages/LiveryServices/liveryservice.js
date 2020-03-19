@@ -7,11 +7,13 @@ class LiveryService extends React.Component{
 
 
     render(){
-        return( 
-            <div>
-                 <LiveryServices />
-                   <Footer />
-            </div>
+        return(
+            <section>
+                <div>
+                  <LiveryServices />
+                    <Footer />
+                  </div>
+            </section>
         )
     }
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import style from './style.module.scss';
 import Boton from '../../Boton/boton';
-
 class LiveryService extends React.Component {
  render(){
       return (
        <div className={style.rectangle}>
+         
        <div className={style.rectangleuno}>
         <h1 className={style.titulouno}>Livery<br></br>Services</h1>
           <hr></hr>
@@ -18,7 +18,7 @@ class LiveryService extends React.Component {
                 <p className={style.text}>
                 Mendar Polo also runs a winter livery and turn out service insuring that all horses will be looked after with the utmost care minimising any 
                 risk whilst you relax and take a deserved winter break.</p>
-               <Boton style ={{  justifyCcontent: "center"}} />
+               <Boton pepe={style.botondos} />
             </div>
        </div>
       )

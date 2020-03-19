@@ -5,6 +5,7 @@ import style from './style.module.scss';
 class Container3 extends React.Component{
     render(){
         return(
+         
             <div className={style.fila2}>
               <div className={style.uno}>
                 <h1 className={style.title}>PRIVATE LESSONS</h1>
@@ -32,9 +33,9 @@ class Container3 extends React.Component{
                  controlled instructional chukkas can be arranged allowing you to learn more about the game and tactics of the sport. 
                  Our coaches will play alongside to offer advice, encouragement and maintain a safe environment.
                   </p>
-
              </div>
         </div>
+    
      )
   }
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './styles.module.scss';
-
-
+import Boton from '../../Boton/boton';
 class Container extends React.Component{
     render(){
         return(
@@ -16,9 +15,7 @@ class Container extends React.Component{
                   so no previous riding experience is needed.
                   All necessary equipment is available for lessons and is included within the price.
                   </p>
-                  <div className={style.contenedorboton}>
-                    <a href="#" className={style.boton}>CONTACT US</a>
-                 </div>
+                <Boton   pepe ={style.botondos}/>
              </div>          
    
      )

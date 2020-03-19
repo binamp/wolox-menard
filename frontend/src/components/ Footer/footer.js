@@ -11,7 +11,7 @@ class Fooster extends React.Component {
         <footer>    
      <div className={styles.containerbody}>
        <div className={styles.colum1}>
-         <img  className={styles.imagen1} src={logo} />      
+         <img  className={styles.imagen1} src={logo}  alt="logo"/>      
       </div>
          <div className={styles.colum2}>   
            <div className={styles.row1}>
@@ -25,10 +25,10 @@ class Fooster extends React.Component {
          <div className={styles.vl}> </div>
             <div className={styles.colum2}>
               <div className={styles.row2}>
-                <img className={styles.imagen2} src= {redes} />
+                <img className={styles.imagen2} src= {redes} alt="redes" />
                <label   style={{ width: "160px" }}>+44 (0) 1865 600 448</label>
                  <label style={{ width: "160px" }}>info@mendardpolo.com</label> 
-                 <img  className={styles.imagen3} src= {binamp} />
+                 <img  className={styles.imagen3} src= {binamp}  alt="binamp"/>
               </div>
           </div>  
         
