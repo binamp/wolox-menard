@@ -1,8 +1,8 @@
 .toolBar{
-    position:fixed;
+    //position:sticky;
     width: 100%;
     height: 56px;
-    background: #521751;
+    background: transparent;
     top:0;
     left:0;
 }
@@ -17,14 +17,21 @@
     margin:0;
     padding:0;
     display:flex;
-    & li{
-        padding:0 0.5rem;
-    }
 }
 .toolBarRef{
     color:white;
     text-decoration: none;
+    padding:20px 0.5rem 20px 0.5rem;
+    color: rgb(255, 166, 0);
 }
-.navLogo{
+.spacer{
+    flex: 1;
+}
+.toolBarLogo{
     margin-left: 0.5rem;
+}
+.toolBarLogo a {
+    color:white;
+    text-decoration: none;
+    font-size: 2rem;
 }

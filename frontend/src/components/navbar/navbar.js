@@ -1,40 +1,45 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import navstyle from './navstyle.module.scss';
+import Logo from '../../image/toolbar/logo.jpeg'
 
-class Navbar extends React.Component{
+class Navbar extends React.Component {
 
-    render(){
-        return(
+    render() {
+        return (
             <header className={navstyle.toolBar}>
+
                 <nav className={navstyle.toolBarNav}>
-                    <div className={navstyle.navLogo}>
-                        <p>aca va un logo</p>
+                    <div className={navstyle.toolBarLogo}>
+
+                        <Link to="/" >
+                            <img src={Logo} alt="Home" />
+                        </Link>
                     </div>
+                    <div className={navstyle.spacer} />
                     <div className={navstyle.toolBarItems}>
                         <ul>
                             <li>
-                                <Link to="/lessons" >Polo lessons</Link>
+                                <Link to="/lessons" className={navstyle.toolBarRef} >Polo lessons</Link>
                             </li>
                             <li>
-                                <Link to="/holidays">Polo Holidays</Link>
+                                <Link to="/holidays" className={navstyle.toolBarRef} >Polo Holidays </Link>
                             </li>
                             <li>
-                                <Link to="/services">Livery Services</Link>
+                                <Link to="/services" className={navstyle.toolBarRef} >Livery Services</Link>
                             </li>
                             <li>
-                                <Link to="/management">Team Management</Link>
+                              <Link to="/management" className={navstyle.toolBarRef}  >Team Management</Link>
                             </li>
                             <li>
-                                <Link to="/sale">Horses for Sale</Link>
+                                <Link to="/sale" className={navstyle.toolBarRef} >Horses for Sale</Link>
                             </li>
                             <li>
-                                <Link to="/contact">Contact US</Link>
+                                <Link to="/contact" className={navstyle.toolBarRef} >Contact US</Link>
                             </li>
                         </ul>
                     </div>
                 </nav>
-                
             </header>
         );
     }
