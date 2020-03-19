@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap');
+.contenedor1{
+    width: 95%;
+    height: 95%;
+    padding-block-start: 72px;
+   
+  }
+  
+.fila{
+     display: flex;
+     justify-content:space-between;
+    
+  }
+.content{
+    width: 523px;
+    height: 593px;
+    background-color: cyan;
+    margin-block-start: 16%;
+    margin-inline-start: 50px;
+   
+}
+  
+.sidebar{
+    height: 746px;
+     width: 1088px;
+    background-color: rgb(47, 88, 102);
+   
+
+  }
+
+ .linea{
+  width: 10%;
+  height: 1px;
+  background-color:#D9B081;
+  margin-block-end: 10px;
+
+ }
+
+ .parf{
+   font-size: 15px;
+   text-align: left;
+   color: #FFFFFF;
+   font-family: Roboto Slab;
+   padding-block-start: 20px;
+   padding-block-end: 10px;
+ }
+
+ span{
+   color: #D9B081;
+   font-size: 28px;
+  font-family: Oswald;
+
+ }
+
+ .titulo{
+  padding-block-start: 60px;
+  padding-block-end: 15px;
+  font-size: 60px;
+  font-family: Playfair Display;
+  color: #FFFFFF;
+ 
+ }

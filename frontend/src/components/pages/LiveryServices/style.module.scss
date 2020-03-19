@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap');
+body{
+    background-image:url(./imagen/caballlos.png);
+    background-color:rgba(0,0,0,0.8);
+}
+
+
+.rectangle{
+    display:flex;
+    justify-content: center;
+
+}
+
+.rectangleuno{
+    display:flex;
+    flex-direction: column;
+    height: 810px;
+    width: 568px;
+    background-color:#1A3052;
+    margin-block-end:110px;
+}
+
+.titulouno{
+font-size: 60px;
+ font-family: Playfair Display;
+ color:#FFFFFF;
+ padding-block-start: 50px;
+ justify-content: center;
+ margin: 0 auto 1em;
+
+}
+.subtitulo{
+    font-size: 28px;
+    font-family: Oswald;
+    color:#D9B081;
+    display:flex;
+    justify-content: center;
+    padding-block-start: 20px;
+    padding-block-end: 25px;
+
+}
+ .text{
+ font-size: 15px;
+ font-family: Roboto Slab;
+ color:#FFFFFF;
+ text-align: center;
+ line-height: 1.7;
+ margin: 0 auto 1em;
+ }
+
+
+hr{
+    width: 13%;
+    height: 1px;
+    background-color:#D9B081;
+    margin: 0 auto 1em;
+
+ }

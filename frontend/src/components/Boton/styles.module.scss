@@ -1,0 +1,21 @@
+.boton {
+    border-radius: 5px;
+    border: 2px solid #EED2AC;
+    color:#D9B081;
+    display: block;
+    font-family: Oswald;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+    width: 390px;
+    height: 40px;
+    padding-block-start: 9px;
+    margin-block-start: 100px;
+  }
+  
+  .boton:hover {
+  color: #FFFFFF;
+  }
+   

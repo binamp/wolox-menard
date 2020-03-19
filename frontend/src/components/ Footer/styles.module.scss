@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap');
+
+
+footer{
+    background:#1A3052;
+    width: 105%;
+    height: 234px;  
+}
+
+.containerbody{
+    display: flex;  
+    height: 174px;
+    padding-block-start: 60px;
+    padding-inline-start: 60px;
+    padding-inline-end: 60px;
+    align-items: center;
+
+}
+
+.vl{ 
+border-left: 1px solid #FFFFFF;
+  height: 14%;
+  position: absolute;
+  left: 38%;
+  top: 148%;
+}
+label{
+    color: #C5CBD3;
+    font-size: 14px;
+    font-family: Roboto Slab;
+    
+}
+
+h1{
+   font-size: 18px;
+    color:#C5CBD3;
+    display: flex;
+    margin: 2px;
+}
+.row1{
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+   
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 60px;
+
+}
+
+.imagen3{
+    width:100px;
+    align-self:flex-end;
+   
+}
+
+.imagen2{
+    width: 100%;
+}
+
+.imagen1{
+ margin-inline-end: 50px;
+}

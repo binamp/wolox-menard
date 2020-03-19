@@ -1,9 +1,19 @@
 import React from 'react';
+import LiveryServices from './liveryserv';
+import Footer from '../../ Footer/footer';
 
-function LiveryService () {
-    return(
-        <h1>Welcome to LiveryService</h1>
-    )
+
+class LiveryService extends React.Component{
+
+
+    render(){
+        return( 
+            <div>
+                 <LiveryServices />
+                   <Footer />
+            </div>
+        )
+    }
 }
 
 export default LiveryService;
