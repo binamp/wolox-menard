@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 import logo from './imagenes/logo.png';
 import redes from './imagenes/redes.png';
 import binamp from './imagenes/logobinamp.png';
-
+import trazado from './imagenes/Trazado.png';
 
 class Fooster extends React.Component {
  render(){
@@ -22,7 +22,7 @@ class Fooster extends React.Component {
                       <label>OXS 3JQ</label>
                    </div>        
               </div>
-         <div className={styles.vl}> </div>
+         <img src={trazado} alt="trazado"  className={styles.trazado}/>
             <div className={styles.colum2}>
               <div className={styles.row2}>
                 <img className={styles.imagen2} src= {redes} alt="redes" />

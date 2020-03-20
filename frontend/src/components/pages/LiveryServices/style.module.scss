@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap');
 section{
     background-image:url(./imagen/caballlos.png);
-    background-color:rgba(0,0,0,0.8);
 }
+section::before{
+    background-color:rgba(0,0,0,0.8);
+    position: absolute;
+}
+    
 
 
 .rectangle{

@@ -1,8 +1,15 @@
 import React from 'react';
+import Cards from './cards';
+import Footer from '../../ Footer/footer';
+import Container from './container';
 
 function HorseForSale() {
     return(
-        <h1>Welcome to HorseForSale!</h1>
+        <>
+        <Container />
+        <Cards />
+        <Footer />
+        </>
     )
 }
 
