@@ -8,7 +8,7 @@ class LiveryService extends React.Component {
          
        <div className={style.rectangleuno}>
         <h1 className={style.titulouno}>Livery<br></br>Services</h1>
-          <hr></hr>
+          <hr className={style.hr}></hr>
             <span  className={style.subtitulo}>THE CARE THAT YOUR HORSES NEEDS</span>
                 <p className={style.text}>Mendar Polo offers an inclusive livery service which provides the highest standard of care for horses. 
                 We are able to tailor our service to meet you and your horses needs. 

@@ -1,14 +1,17 @@
 import React from 'react';
-import thunder from './imagenes/thunder.png';
-import style from './style.module.scss';
+import style from './card.module.scss';
 
 class Card extends React.Component{
  render(){
   return(
        <div>
          <div className={style.cards}>
+         <div className={style.card}></div>
+         <div className={style.card}></div>
+         <div className={style.card}></div>
+         <div className={style.card}></div>
+         </div>
    </div>
-</div>
 )
  }
 }

@@ -16,6 +16,7 @@ function PoloLessons () {
                          <Container3 />
                          <Footer />
                     </div>
+                    <span className={style.backgroundtriangle}></span>
                </div>
     )
 }
