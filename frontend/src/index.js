@@ -12,6 +12,7 @@ import HorseForSale from './components/pages/HorsesForSale/horsesforsale';
 import Error from './components/pages/Error/error';
 
 
+
 const App = () => (
 
         <BrowserRouter>
@@ -24,6 +25,7 @@ const App = () => (
                 <Route path="/sale" component={HorseForSale} />
                 <Route path="/contact" component={ContactUs} />
                 <Route path="/" component={Error} />
+
             </Switch>
         </BrowserRouter>
 );
