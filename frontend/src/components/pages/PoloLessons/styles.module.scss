@@ -1,75 +1,78 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap');
+
 .contenedor1{
-    width: 95%;
-    height: 95%;
-    padding-block-start: 72px;
-   
+    width: 100%;
+  height: 100%;
+  background-color:#172437;
   }
 
-    
+.fondo{
+  top: 0;
+  height: 800px;
+  width: 100%;
+  position: absolute;
+  background-size: cover; 
+  opacity: 0.5;
+  color:#5F6F88 ;  
+
+}
+.fondo::before{
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#5F6F88;
+}
+
 .fila{
      display: flex;
      justify-content:space-between;
     
   }
 .content{
-    width: 523px;
-    height: 593px;
-    background-color: cyan;
-    margin-block-start: 16%;
+    width: 450px;
+    height: 493px;
+    position: relative;
+    margin-block-start: 15%;
     margin-inline-start: 50px;
    
 }
   
 .sidebar{
-    height: 646px;
-     width: 588px;
+    height: 546px;
+     width: 708px;
     background-color: rgb(47, 88, 102);
     margin-block-start: 10%;
-  
+    margin-inline-end: 50px;
+   position: relative;
   }
 
  .linea{
-  width: 10%;
-  height: 1px;
-  background-color:#D9B081;
+  margin-inline-end: 100%;
   margin-block-end: 10px;
 
  }
 
  .parf{
-   font-size: 15px;
+   font-size: 13px;
    text-align: left;
    color: #FFFFFF;
    font-family: Roboto Slab;
-   padding-block-start: 20px;
-   padding-block-end: 10px;
+   padding-block-start: 10px;
+   padding-block-end: 20px;
  }
 
  span{
    color: #D9B081;
-   font-size: 28px;
+   font-size: 22px;
   font-family: Oswald;
 
  }
 
  .titulo{
-  padding-block-start: 60px;
+  padding-block-start:30px;
   padding-block-end: 15px;
-  font-size: 60px;
+  font-size:  2.9em;
   font-family: Playfair Display;
   color: #FFFFFF;
  
  }
- .backgroundtriangle {
 
-  border-top: 86em solid transparent;
-  border-right: 75em solid #172437;; 
-  display: inline-block;
-  position: absolute;
-  top: -86%;
-  right: -5%;
-  z-index: -2; 
-  overflow: hidden;
-}
 

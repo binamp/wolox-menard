@@ -1,19 +1,21 @@
+
 import React from 'react';
 import LiveryServices from './liveryserv';
 import Footer from '../../ Footer/footer';
-
+import style from './style.module.scss';
 
 class LiveryService extends React.Component{
 
-
     render(){
         return(
-            <section>
+            <div className={style.horses} >
+                <div className={style.cap}>
                 <div>
                   <LiveryServices />
-                    <Footer />
+                  <Footer /> 
                   </div>
-            </section>
+              </div>
+            </div> 
         )
     }
 }

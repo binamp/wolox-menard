@@ -1,51 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap');
-section{
-    background-image:url(./imagen/caballlos.png);
+
+.horses{
+    background-image: url(imagen/caballos.png);
+
 }
-section::before{
-    background-color:rgba(0,0,0,0.8);
-    position: absolute;
+.cap{
+    background-color: rgba(95,111,136,0.3);
 }
-    
 
 
 .rectangle{
     display:flex;
     justify-content: center;
-
+    position: relative;
+  
 }
 
 .rectangleuno{
+    margin-block-start: 70px;
     display:flex;
     flex-direction: column;
-    height: 840px;
-    width: 568px;
+    height: 640px;
+    width: 468px;
     background-color:#1A3052;
     margin-block-end:110px;
 }
 
 .titulouno{
-font-size: 60px;
+font-size: 2.9em;
  font-family: PlayfairDisplay;
  color:#FFFFFF;
  padding-block-start: 40px;
  justify-content: center;
- margin: 7% auto;
+ margin: 6% auto;
  text-align: center;
 
 }
 .subtitulo{
-    font-size: 28px;
+    font-size: 22px;
     font-family: Oswald;
     color:#D9B081;
     display:flex;
     justify-content: center;
-    padding-block-start: 20px;
-    padding-block-end: 25px;
+    padding-block-start: 10px;
+    padding-block-end: 15px;
 
 }
  .text{
- font-size: 15px;
+ font-size: 13px;
  font-family: Roboto Slab;
  color:#FFFFFF;
  text-align: center;
@@ -63,6 +65,6 @@ font-size: 60px;
  }
 
  .botondos{
- margin-inline-start:15%;
- margin-block-start:10% ;
+ margin-inline-start:10%;
+ margin-block-start:8% ;
  }

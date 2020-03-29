@@ -41,8 +41,9 @@ class Container extends React.Component{
           <div>
           <span>For further information on any<br></br>
               of our services and horses please </span>
-             <Boton /> 
             </div>
+            <br></br>
+             <Boton /> 
         </div>
 
      )

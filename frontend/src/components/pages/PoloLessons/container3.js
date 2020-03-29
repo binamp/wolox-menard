@@ -29,6 +29,7 @@ class Container3 extends React.Component{
                   <p>
                   The Oxford Polo School tailors instructional chukkas to your ability.
                    <br></br>
+                   <br></br>
                   Beginners Chukkas- Once you are ready to make the step up from lessons,
                  controlled instructional chukkas can be arranged allowing you to learn more about the game and tactics of the sport. 
                  Our coaches will play alongside to offer advice, encouragement and maintain a safe environment.

@@ -1,13 +1,14 @@
 import React from 'react';
 import style from './styles.module.scss';
 import Boton from '../../Boton/boton';
+import linea from './imagen/linea.png';
 class Container extends React.Component{
     render(){
         return(
           
           <div className={style.content}>
                <h1 className={style.titulo}>Polo lessons</h1>
-                 <hr className={style.linea}></hr>
+                <img src={linea}  alt="linea" className={style.linea}/>
                  <span>take your skill to the next level</span>
                 <p className={style.parf}>The Oxford Polo School’s fully qualified team offer several options for individuals and groups,
                   ensuring that you receive the correct coaching that suits your skill level and ability. 
