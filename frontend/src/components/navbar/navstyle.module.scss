@@ -26,8 +26,8 @@
     color: rgb(255, 166, 0);
 }
 .toolBarRefActive{
-    border-bottom: 1px solid black;
-    border-image: linear-gradient(to top, rgb(255, 166, 0) 50%, transparent 50%);
+    border-bottom: 1px solid rgb(255, 166, 0);
+    //border-image: linear-gradient(to top, rgb(255, 166, 0) 50%);
     border-image-slice: 1;
 }
 .spacer{

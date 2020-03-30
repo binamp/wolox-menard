@@ -11,17 +11,18 @@
   top: 0;
   display: flex;
   position: relative;
-  height: 880px;
+  height: 1200px;
   width: 100%;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom left, transparent 56.5%, #172437 0%) left/145% 111% no-repeat,
-    url("../../../image/TeamManagement/bm.jpeg") center/cover no-repeat;
+  border: 3px yellow solid;
+  background: linear-gradient(to bottom left, transparent 55%, #172437 0%) left/135% 111% no-repeat,
+  url("../../../image/TeamManagement/bm.jpeg") center/cover no-repeat;
   //background-size: cover;
 }
 .cuadro {
   display: flex;
-  height: 500px;
+  height: 700px;
   width: 95%;
   margin: 10px;
   border: green 3px solid;
@@ -67,12 +68,14 @@
     color:#FFFFFF;
     text-align: center;
     line-height: 1.7;
+    padding-top:5px;
+    padding-bottom: 5px;
     //margin: 1% 3% 3%;
   }
   & hr {
     width: 30%;
     height: 1px;
-    justify-content: center;
+    align-self: center;
     background-color: #d9b081;
   }
 }
