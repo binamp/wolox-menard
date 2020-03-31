@@ -7,6 +7,13 @@
   background-color: #172437;
 }
 
+.capa{
+  background: #5F6F88;
+  min-height: 100vh;
+  min-width: 100%;
+  border: 1px pruple;
+}
+
 .cuadimg {
   top: 0;
   display: flex;
@@ -16,13 +23,13 @@
   justify-content: center;
   align-items: center;
   border: 3px yellow solid;
-  background: linear-gradient(to bottom left, transparent 55%, #172437 0%) left/135% 111% no-repeat,
-  url("../../../image/TeamManagement/bm.jpeg") center/cover no-repeat;
+  background: linear-gradient(to bottom left, transparent 60.5%, #172437 0%) left/145% 111% no-repeat,
+  url("../../../image/TeamManagement/bm.png")  center/cover no-repeat;
   //background-size: cover;
 }
 .cuadro {
   display: flex;
-  height: 700px;
+  height: 65%;
   width: 95%;
   margin: 10px;
   border: green 3px solid;
@@ -31,66 +38,61 @@
 }
 .cuadroContact {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  word-break: break-all;
-  // padding-left: 25px;
-  // padding-right: 25px;
   height: 100%;
   width: 35%;
   border: violet 1px solid;
   margin-right: 3px;
   background: #1A3052;
-  & h1 {
-    font-size: 60px;
-    font-family: PlayfairDisplay;
-    color: #ffffff;
-    // padding-block-start: 40px;
-    justify-content: center;
-    // margin: 7% auto;
-    text-align: center;
-    white-space: pre-wrap;
-    word-break: keep-all;
-  }
-  & .subtitle {
-    font-size: 28px;
-    font-family: Oswald;
-    color: #d9b081;
-    display: flex;
-    justify-content: center;
-    // padding-block-start: 20px;
-    // padding-block-end: 25px;
-  }
-  & .text{
-    font-size: 15px;
-    font-family: Roboto Slab;
-    color:#FFFFFF;
-    text-align: center;
-    line-height: 1.7;
-    padding-top:5px;
-    padding-bottom: 5px;
-    //margin: 1% 3% 3%;
-  }
-  & hr {
-    width: 30%;
-    height: 1px;
-    align-self: center;
-    background-color: #d9b081;
-  }
 }
-
-// hr {
-//   width: 30%;
-//   height: 1px;
-//   justify-self: center;
-//   background-color: #d9b081;
-// }
 .centrar{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   height: 90%;
   width: 90%;
   word-wrap: break-word;
   border:yellow 1px solid;
+  & h1{
+    text-align: center;
+    padding: 10px 70px 10px 70px;
+    //word-wrap: break-word;
+    //word-break: break-all;
+    font-size:  2.9em;
+    font-family: Playfair Display;
+    color: #FFFFFF;
+  }
+  & hr{
+    border-top: 0px solid #D9B081 !important;
+    padding: 0;
+    margin-top: 0.5em !important;
+    border-width: 1px !important;
+    margin-bottom: 0.5em !important;
+    //width: 245px;
+    width: 80px;
+    }
+    & .subtitle{
+      text-align: center;
+      margin:0.7em;
+      font-size: 22px;
+      font-family: Oswald;
+      color:#D9B081;
+    }
+    & .text{
+      text-align: center;
+      font-size: 14.8px;
+      font-family: Roboto Slab;
+      color:#FFFFFF;
+      line-height: 1.7;
+      margin: 3px;
+    }
+    & .temp{
+      height: 10%;
+      width: 60%;
+      margin: 30px;
+      background: red;
+    }
 }
 
 .cuadroGallery {

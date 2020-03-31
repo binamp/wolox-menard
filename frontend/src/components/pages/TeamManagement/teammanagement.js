@@ -22,6 +22,7 @@ const Cuadrilla = () => (
           may bring to enhance the team. We aim to nurture a positive and professional relationship between
           professionals and patrons so come match day the only thought is the game itself.
         </p>
+        {/* aca va a ir el boton con funcionalidad Form */}
         <div className={tmanagement.temp}> Contact Us</div>
       </div>
     </div>
@@ -49,8 +50,10 @@ const Cuad = () => (
 function TeamManagement() {
   return (
     <div className={tmanagement.comp}>
-      <Navbar />
-      <Cuad />
+      <div className={tmanagement.capa}>
+        <Navbar />
+        <Cuad />
+      </div>
     </div>
   );
 }
