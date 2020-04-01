@@ -7,13 +7,6 @@
   background-color: #172437;
 }
 
-.capa{
-  background: #5F6F88;
-  min-height: 100vh;
-  min-width: 100%;
-  border: 1px pruple;
-}
-
 .cuadimg {
   top: 0;
   display: flex;
@@ -27,6 +20,7 @@
   url("../../../image/TeamManagement/bm.png")  center/cover no-repeat;
   //background-size: cover;
 }
+
 .cuadro {
   display: flex;
   height: 65%;
@@ -36,6 +30,7 @@
   bottom: 500px;
   top: 500px;
 }
+
 .cuadroContact {
   display: flex;
   align-items: center;
@@ -46,6 +41,7 @@
   margin-right: 3px;
   background: #1A3052;
 }
+
 .centrar{
   display:flex;
   flex-direction: column;
@@ -100,6 +96,7 @@
   width: 65%;
   border: rgb(158, 11, 0) 1px solid;
 }
+
 .Gallery {
   height: 80%;
   border: lightblue 2px solid;

@@ -20,8 +20,6 @@ function HorseForSale() {
         <div className={SaleStyle.compBody}>
             <Navbar />
             <CuadGral />
-
-            <h1>otro componente</h1>
         </div>
     );
 }

@@ -17,8 +17,7 @@ const Links = (props) => (
       <div className={navstyle.spacer} />
       <div className={navstyle.toolBarItems}>
         <ul>
-          {// llamo a la propiedad 'link' que le asgine en navbar.js y recorro todas las pociciones de la lista y uso los datos de cada pocicion en NavLink
-          // eslint-disable-next-line react/prop-types
+          {
           props.link.map((list, index) => (
             // eslint-disable-next-line react/no-array-index-key
             <li key={index}>
