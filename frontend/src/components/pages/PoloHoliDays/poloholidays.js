@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../../navbar/navbar.js';
 
 function PoloHoliDays (){
     return(
@@ -9,5 +8,4 @@ function PoloHoliDays (){
         </>
     )
 }
-
 export default PoloHoliDays;
