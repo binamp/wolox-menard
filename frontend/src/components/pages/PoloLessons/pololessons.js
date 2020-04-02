@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../../navbar/navbar.js';
 
 import Footer from '../../ Footer/footer';
 
@@ -14,6 +15,7 @@ function PoloLessons() {
       <img src={fondo} alt="fondo" className={style.fondo} />
       <div className={style.contenedor1}>
         <div className={style.fila}>
+          <Navbar />
           <Container />
           <Container2 />
         </div>
@@ -21,7 +23,7 @@ function PoloLessons() {
         <Footer />
       </div>
     </div>
-  );
+    )
 }
 
 export default PoloLessons;

@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../../navbar/navbar.js';
 
 import Footer from '../../ Footer/footer';
 
@@ -10,12 +11,13 @@ function LiveryService() {
     <div className={style.horses}>
       <div className={style.cap}>
         <div>
+          <Navbar />
           <LiveryServices />
           <Footer />
         </div>
       </div>
-    </div>
-  );
+    </div>   
+  )
 }
 
 export default LiveryService;
