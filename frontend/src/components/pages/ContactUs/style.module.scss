@@ -4,24 +4,20 @@
 .background{
     background-image:url(./imagen/fondocontact.png);
     background-size: 115%; 
-    
 }
-
  .cap{
      background-color: rgba(0,0,0,0.3);
  }
- .contaiiner{
+ .contenedor{
      display: flex;
      justify-content: left;
-
  }
 .square{
     height: 180px;
     width: 390px;
     margin-inline-start: 50px;
     margin-block-start: 76%;
-   
-   }
+ }
 
 .titulo2{
  font-size: 2.9em;
@@ -41,7 +37,6 @@
     text-align:end;
     justify-content: flex-end;
     padding-block-start: 10px;
-
 }
 .linea2{
     display:flex;

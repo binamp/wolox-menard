@@ -1,19 +1,18 @@
 import React from 'react';
+
 import style from './card.module.scss';
 
-class Card extends React.Component{
- render(){
-  return(
-       <div>
-         <div className={style.cards}>
-         <div className={style.card}></div>
-         <div className={style.card}></div>
-         <div className={style.card}></div>
-         <div className={style.card}></div>
-         </div>
-   </div>
-)
- }
+function Card() {
+  return (
+    <div>
+      <div className={style.cards}>
+        <div className={style.card} />
+        <div className={style.card} />
+        <div className={style.card} />
+        <div className={style.card} />
+      </div>
+    </div>
+  );
 }
 
 export default Card;

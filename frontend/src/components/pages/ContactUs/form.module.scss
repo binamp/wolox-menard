@@ -1,34 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap');
 
-.containeer{
+.container1{
     display: flex;
     justify-content:left;
 }
-
-.container3{
+.container2{
     width: 750px;
     height: 420px;
     background-color: #1A3052;
     margin-inline-start: 20px;
     margin-block-start: 19%;
     margin-block-end: 13%;  
-
 }
-.container4{
+.container3{
    display: flex;
 }
 .form1{
     width:200px;
     margin-inline-start: 14px;
-    margin-block-start: 8px;
-   
+    margin-block-start: 8px;  
 }
 .form2{
     margin-block-start: 8px;
     margin-inline-start: 24%;
-}
-.labeel{
-    margin-inline-start: 10px;
 }
 .name,
 .namber,
@@ -47,7 +41,6 @@ textarea {
  textarea {
     height: 226px;
  }
-
 .email{
     background-color: #1A3052;
     outline:0;
@@ -59,15 +52,12 @@ textarea {
     margin: 20px;
   align-items: flex-end;
 }    
-
-
 input [placeholder]{
     font-family:Oswald;
     font-size: 10px;
     color:#6E96D6;
  } 
- 
-select{
+ select{
     background-color: #1A3052;
     outline:0;
     padding: 1em;
@@ -96,9 +86,7 @@ select{
     height: 40px;
     margin-inline-start: 21em;
     margin-block-start: 28%;
-  }
-  
-  .boton:hover {
+&:hover {
   color: #FFFFFF;
   }
-   
+}
