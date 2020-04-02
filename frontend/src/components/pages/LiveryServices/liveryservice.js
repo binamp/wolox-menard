@@ -1,8 +1,12 @@
 import React from 'react';
+import Navbar from '../../navbar/navbar.js';
 
 function LiveryService () {
     return(
-        <h1>Welcome to LiveryService</h1>
+        <>
+            <Navbar />
+            <h1>Welcome to LiveryService</h1>
+        </>
     )
 }
 

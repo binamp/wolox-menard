@@ -7,6 +7,7 @@ import styles from "./styles.module.scss";
 function PoloHoliDays() {
   return (
     <div className={styles.backgroundHolidays}>
+      <Navbar />
       <Travel />
       <Carrousel />
       <Button />
@@ -14,4 +15,5 @@ function PoloHoliDays() {
   );
 }
 
+import Navbar from "../../navbar/navbar";
 export default PoloHoliDays;

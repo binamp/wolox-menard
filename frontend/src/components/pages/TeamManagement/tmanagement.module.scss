@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap");
+
+.comp {
+  min-height: 100vh;
+  // min-width: 100vw;
+  min-width: 100%;
+  background-color: #172437;
+}
+
+.cuadimg {
+  top: 0;
+  display: flex;
+  position: relative;
+  height: 1200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 3px yellow solid;
+  background: linear-gradient(to bottom left, transparent 54.5%, #172437 0%) left/120% 111% no-repeat,
+  url("../../../image/TeamManagement/bm.png")  center/cover no-repeat;
+  //background-size: cover;
+}
+
+.cuadro {
+  display: flex;
+  height: 65%;
+  width: 95%;
+  margin: 10px;
+  border: green 3px solid;
+  bottom: 500px;
+  top: 500px;
+}
+
+.cuadroContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 45%;
+  border: violet 1px solid;
+  margin-right: 3px;
+  background: #1A3052;
+}
+
+.centrar{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  word-wrap: break-word;
+  border:yellow 1px solid;
+  & h1{
+    text-align: center;
+    padding: 10px 70px 10px 70px;
+    //word-wrap: break-word;
+    //word-break: break-all;
+    font-size:  2.9em;
+    font-family: Playfair Display;
+    color: #FFFFFF;
+  }
+  & hr{
+    border-top: 0px solid #D9B081 !important;
+    padding: 0;
+    margin-top: 0.5em !important;
+    border-width: 1px !important;
+    margin-bottom: 0.5em !important;
+    //width: 245px;
+    width: 80px;
+    }
+    & .subtitle{
+      text-align: center;
+      margin:0.7em;
+      font-size: 22px;
+      font-family: Oswald;
+      color:#D9B081;
+    }
+    & .text{
+      text-align: center;
+      font-size: 14.9px;
+      font-family: Roboto Slab;
+      color:#FFFFFF;
+      line-height: 1.7;
+      margin: 3px;
+    }
+    & .temp{
+      height: 10%;
+      width: 60%;
+      margin: 30px;
+      background: red;
+    }
+}
+
+.cuadroGallery {
+  height: 100%;
+  width: 65%;
+  border: rgb(158, 11, 0) 1px solid;
+}
+
+.Gallery {
+  height: 80%;
+  border: lightblue 2px solid;
+  background: lightblue;
+}
