@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap');
+
+
+.background{
+    background-image:url(./imagen/fondocontact.png);
+    background-size: 115%; 
+}
+ .cap{
+     background-color: rgba(0,0,0,0.3);
+ }
+ .contenedor{
+     display: flex;
+     justify-content: left;
+ }
+.square{
+    height: 180px;
+    width: 390px;
+    margin-inline-start: 50px;
+    margin-block-start: 76%;
+ }
+
+.titulo2{
+ font-size: 2.9em;
+ font-family: PlayfairDisplay;
+ color:#FFFFFF;
+ padding-block-start: 10px;
+ justify-content: flex-end;
+ margin: 1% auto;
+ text-align: end;
+}
+
+.subtitulo2{
+    font-size: 22px;
+    font-family: Oswald;
+    color:#D9B081;
+    display:flex;
+    text-align:end;
+    justify-content: flex-end;
+    padding-block-start: 10px;
+}
+.linea2{
+    display:flex;
+    margin-block-start: 10px;
+    margin-inline-start: 85%;
+}

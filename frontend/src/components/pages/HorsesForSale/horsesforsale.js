@@ -1,26 +1,25 @@
 import React from 'react';
 
+import Footer from '../../ Footer/footer';
 import Navbar from '../../navbar/navbar';
 
-import SaleStyle from './horsesForSale.module.scss';
+import Cards from './cards';
+import Container from './container';
+import style from './card.module.scss';
 
-const CompVentas = () => (
-    <div className={SaleStyle.CompVentas}>
-    </div>
-)
 
-const CuadGral = () => (
-
-    <div className={SaleStyle.CuadGral}>
-        <CompVentas />
-    </div>
-);
 function HorseForSale() {
-    return (
-        <div className={SaleStyle.compBody}>
-            <Navbar />
-            <CuadGral />
-        </div>
-    );
+  return (
+    <>
+      <div className={style.column}>
+        <Navbar />
+        <Container />
+        <Cards />
+      </div>
+      <Footer />
+      <span className={style.backgroundtriangle} />
+    </>
+  );
 }
+
 export default HorseForSale;

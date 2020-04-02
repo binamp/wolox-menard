@@ -1,13 +1,23 @@
 import React from 'react';
 import Navbar from '../../navbar/navbar.js';
 
-function LiveryService () {
-    return(
-        <>
-            <Navbar />
-            <h1>Welcome to LiveryService</h1>
-        </>
-    )
+import Footer from '../../ Footer/footer';
+
+import LiveryServices from './liveryserv';
+import style from './style.module.scss';
+
+function LiveryService() {
+  return (
+    <div className={style.horses}>
+      <div className={style.cap}>
+        <div>
+          <Navbar />
+          <LiveryServices />
+          <Footer />
+        </div>
+      </div>
+    </div>   
+  )
 }
 
 export default LiveryService;
