@@ -1,11 +1,9 @@
-/* eslint-disable line-comment-position */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import Logo from '../../image/toolbar/logomenu.png';
 
 import navstyle from './navstyle.module.scss';
-// recibe el Array (lista)
 const Links = (props) => (
   <header className={navstyle.toolBar}>
     <nav className={navstyle.toolBarNav}>
@@ -18,9 +16,8 @@ const Links = (props) => (
       <div className={navstyle.toolBarItems}>
         <ul>
           {
-          props.link.map((list, index) => (
-            // eslint-disable-next-line react/no-array-index-key
-            <li key={index}>
+          props.link.map((list, ref) => (
+            <li key={ref}>
               <NavLink
                 activeClassName={navstyle.toolBarRefActive}
                 className={navstyle.toolBarRef}

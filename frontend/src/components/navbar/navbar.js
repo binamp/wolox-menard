@@ -13,4 +13,5 @@ const Navbar = () => {
   ];
   return <Links link={items} />;
 };
+
 export default Navbar;

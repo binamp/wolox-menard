@@ -25,7 +25,6 @@ function TeamManagement() {
                   We have an acute awareness of a team’s strengths and are able to see what assets different players
                   may bring to enhance the team. We aim to nurture a positive and professional relationship between
                   professionals and patrons so come match day the only thought is the game itself.</p>
-                {/* aca va a ir el boton con funcionalidad Form */}
                 <div className={tmanagement.temp}> Contact Us</div>
               </div>
             </div>

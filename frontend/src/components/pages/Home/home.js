@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../navbar/navbar.js'
 
-function Home (){
+function Home() {
     return(
         <>
             <Navbar />
@@ -9,5 +9,5 @@ function Home (){
         </>
     )
 }
-export default Home;
 
+export default Home;

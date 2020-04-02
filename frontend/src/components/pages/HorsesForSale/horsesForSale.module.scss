@@ -1,24 +1,22 @@
 .compBody {
-    min-height: 100vh;
-    min-width: 100%;
-    background-color: #172437;
-    border: 3px yellow solid;
-  }
-.CuadGral{
-  display:flex;
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: #172437;
+  border: 3px yellow solid;
+}
+.CuadGral {
+  display: flex;
   align-items: center;
   height: 1500px;
   border: green 2px solid;
 }
-.CompVentas{
-  margin:10px;
+.CompVentas {
+  margin: 10px;
   height: 80%;
   width: 40%;
   justify-self: flex-end;
   border: 2px red solid;
-}  
-
-
+}
 
 // //cartas
 // largo: 711px;  / 556px

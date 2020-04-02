@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../navbar/navbar.js';
 
-function Error (){
+function Error() {
     return(
         <>
             <Navbar />
@@ -9,4 +9,5 @@ function Error (){
         </>
     );
 }
+
 export default Error;

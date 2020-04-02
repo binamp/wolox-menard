@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../navbar/navbar.js';
 
 
-function ContactUs(){
+function ContactUs() {
     return(
         <>
             <Navbar />
@@ -10,4 +10,5 @@ function ContactUs(){
         </>
     )
 }
+
 export default ContactUs;
