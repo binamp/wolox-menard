@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.carouselContainer {
+  display: flex;
+  width: 57%;
+  margin-left: 3%;
+  margin-top: 8.5%;
+  margin-bottom: 15%;
+}
+.carousel {
+  position: absolute;
+}
+
+.carousel-indicators {
+  justify-content: flex-start;
+  margin-left: none;
+}

@@ -1,13 +1,19 @@
-import React from 'react';
+import React from "react";
+import Travel from "./travel";
+import Carousel from "../../carrousel/carrousel.js";
+import styles from "./styles.module.scss";
+import Navbar from "../../navbar/navbar";
+import Footer from "../../ Footer/footer";
 
-import Navbar from '../../navbar/navbar';
-
-function PoloHoliDays (){
-    return(
-        <>
-            <Navbar />
-            <h1>Welcome to PoloHoliDays!</h1>
-        </>
-    )
+function PoloHoliDays() {
+  return (
+    <div className={styles.backgroundHolidays}>
+      <Navbar />
+      <Travel />
+      <Carousel />
+      <Footer />
+    </div>
+  );
 }
+
 export default PoloHoliDays;
