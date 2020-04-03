@@ -1,40 +1,59 @@
-.toolBar{
-    position:fixed;
-    width: 100%;
-    height: 56px;
-    background: transparent;
-    top:0;
-    left:0;
-    z-index: 1;
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+.toolBar {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background: transparent;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
-.toolBarNav{
-    display:flex;
-    align-items: center;
-    height: 100%;
-    padding:0 1rem;
+.toolBarNav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
 }
 
-.toolBarItems ul{
-    list-style: none;
-    display:flex;
+.toolBarItems ul {
+  list-style: none;
+  display: flex;
 }
 
-.toolBarRef{
-    text-decoration: none;
-    padding:20px 10px 20px 10px;
-    color: rgb(255, 166, 0);
+.toolBarRef {
+  text-decoration: none;
+  padding: 20px 10px 20px 10px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-family: "Oswald", sans-serif;
+}
+.toolBarRef:hover {
+  color: rgb(217, 176, 129);
+  text-decoration: none;
+}
+.toolBarRef::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: rgb(217, 176, 129);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.toolBarRef:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
 }
 
-.toolBarRefActive{
-    border-bottom: 1px solid rgb(255, 166, 0);
-    border-image-slice: 1;
+.spacer {
+  flex: 1;
 }
 
-.spacer{
-    flex: 1;
-}
-
-.toolBarLogo{
-    margin-left: 0.5rem;
+.toolBarLogo {
+  margin-left: 0.5rem;
 }

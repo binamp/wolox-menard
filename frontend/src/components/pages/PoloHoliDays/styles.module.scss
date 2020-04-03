@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"); //First font.
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"); //Second font.
 @import url("https://fonts.googleapis.com/css?family=Oswald&display=swap"); //Logo font.
-@import "~bootstrap/scss/bootstrap";
 
 .backgroundHolidays {
   background-image: url("./img/background-Holidays.png");
@@ -77,11 +76,7 @@
   color: #ffffff;
 }
 
-//Carousel styles//
-
-.carouselContainer {
-  display: flex;
-  width: 57%;
-  margin-left: 3%;
-  margin-top: 8.5%;
+.carousel-indicators {
+  justify-content: flex-start;
+  margin-left: 0;
 }
