@@ -7,7 +7,6 @@ import Cards from './cards';
 import Container from './container';
 import style from './card.module.scss';
 
-
 function HorseForSale() {
   return (
     <>

@@ -27,8 +27,13 @@
 }
 
 .toolBarRefActive{
-    border-bottom: 1px solid rgb(255, 166, 0);
-    border-image-slice: 1;
+    border:1px solid;
+    border-bottom-width: 3px;
+    border-bottom-style: initial;
+    border-bottom-color: initial;
+   
+   color: #D9B081;
+    
 }
 
 .spacer{

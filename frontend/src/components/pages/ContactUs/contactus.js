@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Footer from '../../ Footer/footer';
-import Navbar from '../../navbar/navbar.js';
+import Navbar from '../../navbar/navbar';
 
 import FormContact from './formcontact';
 import style from './style.module.scss';

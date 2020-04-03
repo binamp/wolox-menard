@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../navbar/navbar.js';
 
+import Navbar from '../../navbar/navbar';
 import Footer from '../../ Footer/footer';
 
 import Container from './container1';
@@ -23,7 +23,7 @@ function PoloLessons() {
         <Footer />
       </div>
     </div>
-    )
+  );
 }
 
 export default PoloLessons;
