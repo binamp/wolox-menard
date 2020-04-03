@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import Border from "./img/Trazado 50.svg";
+import Boton from "../../Boton/boton";
 
 function Travel() {
   return (
@@ -32,6 +33,7 @@ function Travel() {
         prestigious tournaments around the globe and plan to bring back the
         silverware.
       </p>
+      <Boton />
     </div>
   );
 }

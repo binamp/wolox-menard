@@ -3,6 +3,7 @@ import Welcome from "./welcome";
 import OurServices from "./ourServices";
 import styles from "./styles.module.scss";
 import Navbar from "../../navbar/navbar.js";
+import Footer from "../../ Footer/footer";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Navbar />
       <Welcome />
       <OurServices />
+      <Footer />
     </div>
   );
 }

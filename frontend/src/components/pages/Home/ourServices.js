@@ -7,6 +7,7 @@ import image4 from "./img/Horses for sale 4.svg";
 import image5 from "./img/Delivery services 5.svg";
 import secondBorder from "./img/Trazado 123.svg";
 import thirdLine from "./img/Trazado 123.svg";
+import Boton from "../../Boton/boton";
 
 function OurServices() {
   return (
@@ -68,10 +69,8 @@ function OurServices() {
       </div>
       <div>
         <img src={thirdLine} />
-        <a href="/contact">
-          <button className={styles.button}>CONTACT US</button>
-        </a>
       </div>
+      <Boton />
     </div>
   );
 }
