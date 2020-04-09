@@ -1,11 +1,10 @@
 import React from "react";
-
-import style from "./styles.module.scss";
+import styles from "../../../src/styles.module.scss";
 
 class Boton extends React.Component {
   render() {
     const { pepe } = this.props;
-    return <button className={`${style.button} ${pepe}`}>CONTACT US</button>;
+    return <button className={`${styles.button} ${pepe}`}>CONTACT US</button>;
   }
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./index.css";
+import "../src/styles.module.scss";
 import Home from "./components/pages/Home/home";
 import ContactUs from "./components/pages/ContactUs/contactus";
 import PoloLessons from "./components/pages/PoloLessons/pololessons";

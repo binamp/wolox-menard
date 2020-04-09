@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles.module.scss";
+import styles from "../../../../src/styles.module.scss";
 import image from "./img/Polo lessons 1.svg";
 import image2 from "./img/Polo holidays 2.svg";
 import image3 from "./img/Team management 3.svg";

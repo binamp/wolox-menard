@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles.module.scss";
+import styles from "../../../../src/styles.module.scss";
 import Logo from "./img/Logo M.svg";
 import Border from "./img/Trazado 50.svg";
 import filter from "./img/Rectángulo 76.svg";
@@ -8,7 +8,7 @@ function Welcome() {
   return (
     <div className={styles.container}>
       <div className={styles.containerTitle}>
-        <h1 className={styles.firstFont}>
+        <h1 className={styles.titleFont}>
           Welcome to
           <br />
           the best polo experience
@@ -18,14 +18,14 @@ function Welcome() {
         <img src={Logo} />
         <div className={styles.paragraphContainer}>
           <div className={styles.paragraphContainer2}>
-            <p className={styles.secondFont}>
+            <p className={styles.paragraphFont}>
               Menard Polo was founded in 2011 by David Ashby and is one of the
               UK’s top polo schools. With its success it expanded into polo
               events, livery, coaching, team management, transportation,
               logistics and player coaches. Oxford Polo offers a comprehensive
               service to the polo world.
             </p>
-            <p className={styles.secondFont}>
+            <p className={styles.paragraphFont}>
               Menard Polo’s aim is to spread polo far and wide, sharing our
               fantastic sport with as many as possible. Within our local
               community, polo players and clientele are people from all corners
@@ -35,7 +35,7 @@ function Welcome() {
             </p>
           </div>
           <div className={styles.paragraphContainer2}>
-            <p className={styles.secondFont}>
+            <p className={styles.paragraphFont}>
               Menard Polo is fully certified by The Association of Polo Schools
               and Pony Hirers (APSPH) and uses fully qualified Hurlingham Polo
               Association (HPA) Coaches. Oxford Polo’s fully qualified team
