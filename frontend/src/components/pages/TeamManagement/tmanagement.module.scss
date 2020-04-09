@@ -18,6 +18,9 @@
   border: 3px yellow solid;
   background: linear-gradient(to bottom left, transparent 54.5%, #172437 0%) left/120% 111% no-repeat,
   url("../../../image/TeamManagement/bm.png")  center/cover no-repeat;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
   //background-size: cover;
 }
 

@@ -5,21 +5,20 @@ import Navbar from '../../navbar/navbar';
 
 import Cards from './cards';
 import Container from './container';
-import style from './card.module.scss';
+import ListData from './ListData';
+import gstyle from './style.module.scss';
 
-
-function HorseForSale() {
-  return (
-    <>
-      <div className={style.column}>
-        <Navbar />
-        <Container />
-        <Cards />
-      </div>
-      <Footer />
-      <span className={style.backgroundtriangle} />
-    </>
-  );
-}
-
+const HorseForSale = () => (
+  <div className={gstyle.compBody}>
+    <Navbar />
+    {/* <div className={style.column}> */}
+    <div className={gstyle.contenedores}>
+      <Container />
+      <Cards horsesimg={ListData} />
+    </div>
+    {/* </div> */}
+    <Footer />
+    {/* <span className={style.backgroundtriangle} /> */}
+  </div>
+);
 export default HorseForSale;
