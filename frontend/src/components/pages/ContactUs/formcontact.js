@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import Contact from './contact';
-import style from './form.module.scss';
+import Contact from "./contact";
+import style from "./form.module.scss";
 
 function Form() {
   return (
@@ -11,7 +11,13 @@ function Form() {
         <div className={style.container3}>
           <div className={style.form1}>
             <form>
-              <input name="name" className={style.name} placeholder="FULL NAME" type="text" value="" />
+              <input
+                name="name"
+                className={style.name}
+                placeholder="FULL NAME"
+                type="text"
+                value=""
+              />
               <input
                 name="phonenumber"
                 className={style.namber}
@@ -19,7 +25,12 @@ function Form() {
                 type="namber"
                 value=""
               />
-              <textarea placeholder="MESSAGE" className={style.message} type="text" value="" />
+              <textarea
+                placeholder="MESSAGE"
+                className={style.message}
+                type="text"
+                value=""
+              />
             </form>
           </div>
           <div className={style.form2}>
