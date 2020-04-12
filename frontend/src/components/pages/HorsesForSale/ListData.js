@@ -19,8 +19,8 @@ const images = [
     title: 'Cinnamon',
     alt: 'Horse Cinnamon',
     url: imagen2,
-    gender: 'MATE',
-    age: 7,
+    gender: 'MARE',
+    age: 4,
     about:
       'A 15.2h English TB that ram 6 times before coming into polo. This mare is very rounded and will suit a wide range of players. She is played with Tom Meyrick and David Ashby in the 2016 season. She has a great mouth and great lateral movement'
   },
@@ -29,8 +29,8 @@ const images = [
     title: 'Jack',
     alt: 'Horse Jack',
     url: imagen3,
-    gender: 'STALLION',
-    age: 7,
+    gender: 'COLT',
+    age: 1,
     about:
       'A 15.2h English TB that ram 6 times before coming into polo. This mare is very rounded and will suit a wide range of players. She is played with Tom Meyrick and David Ashby in the 2016 season. She has a great mouth and great lateral movement'
   },
@@ -39,8 +39,8 @@ const images = [
     title: 'Alexia',
     alt: 'Horse Alexia',
     url: imagen4,
-    gender: 'STALLION',
-    age: 7,
+    gender: 'FILLY',
+    age: 3,
     about:
       'A 15.2h English TB that ram 6 times before coming into polo. This mare is very rounded and will suit a wide range of players. She is played with Tom Meyrick and David Ashby in the 2016 season. She has a great mouth and great lateral movement'
   }

@@ -1,12 +1,21 @@
 import React from 'react';
-import Navbar from '../../navbar/navbar.js';
 
-function Error (){
-    return(
-        <>
-            <Navbar />
-            <h1>Error 404, THIS PAGE NO FOUND</h1>
-        </>
-    );
-}
+import Navbar from '../../navbar/navbar';
+import Footer from '../../ Footer/footer';
+
+import LiveryServices from './liveryserv';
+import style from './style.module.scss';
+
+const Error = () => (
+  <div className={style.horses}>
+    <div className={style.cap}>
+      <div>
+        <Navbar />
+        <LiveryServices />
+        <Footer />
+      </div>
+    </div>
+  </div>
+);
+
 export default Error;
