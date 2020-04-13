@@ -16,6 +16,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .containerTitle {
   display: flex;
   flex-direction: column;
@@ -24,15 +25,18 @@
   margin-top: 272px;
   align-items: center;
 }
+
 .paragraphContainer {
   display: flex;
 }
+
 .paragraphContainer2 {
   display: flex;
   flex-wrap: wrap;
   width: 92%;
   margin-top: 30px;
 }
+
 .logoFont {
   font-family: "Oswald", sans-serif;
   color: #d9b081;
@@ -90,6 +94,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .link .mask {
   position: absolute;
   top: 0;
@@ -101,6 +106,7 @@
   transform: all 0.4s ease;
   z-index: 10;
 }
+
 .link .mask p {
   font-family: "Playfair Display", serif;
   top: 47px;
@@ -108,7 +114,6 @@
   color: #ffffff;
   font-size: 1.5em;
   text-align: left;
-  position: absolute;
 }
 
 .link:hover .mask {
@@ -120,7 +125,7 @@
   max-width: 100%;
 }
 
-.botonHome {
+.buttonHome {
   font-family: "Oswald", sans-serif;
   font-weight: lighter;
   color: #d9b081;

@@ -16,7 +16,7 @@ function Footer() {
     <footer>
       <div className={styles.containerbody}>
         <div className={styles.column}>
-          <img className={styles.imagen1} src={logo} alt="logo" />
+          <img className={styles.image1} src={logo} alt="logo" />
         </div>
         <div className={styles.row1}>
           <span className={styles.h2titulo}>Contact us</span>
@@ -25,7 +25,7 @@ function Footer() {
           <span className={styles.labeltext}> Kirtlington </span>
           <span className={styles.labeltext}>OXS 3JQ</span>
         </div>
-        <img src={trazado} alt="trazado" className={styles.trazado} />
+        <img src={trazado} alt="trazado" className={styles.tracing} />
         <div className={styles.row2}>
           <div>
             <a href="https://twitter.com/MeTCBaOk" target="_blank">
@@ -53,7 +53,7 @@ function Footer() {
           </span>
           <div>
             <a href="https://binamp.com/" target="_blank">
-              <img className={styles.imagen3} src={binamp} alt="binamp" />
+              <img className={styles.image3} src={binamp} alt="binamp" />
             </a>
           </div>
         </div>

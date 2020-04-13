@@ -12,9 +12,9 @@ import style from './styles.module.scss';
 function PoloLessons() {
   return (
     <div>
-      <img src={fondo} alt="fondo" className={style.fondo} />
+      <img src={fondo} alt="fondo" className={style.fund} />
       <div className={style.contenedor1}>
-        <div className={style.fila}>
+        <div className={style.row1}>
           <Navbar />
           <Container />
           <div className={style.sidebar}>

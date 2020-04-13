@@ -2,24 +2,23 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 
-.comp {
+.component{
   height: 120vh;
   width: 100%;
   background-color: #172437;
   background-size: cover; 
- 
 &::before{
   background-color: rgba(0, 0, 0, 0.5);
  }
 }
-.cuadimg {
+.squareImg {
   display: flex;
   position: absolute;
   height: 105%;
   width:100%;
 }
 
-.cuadro {
+.Square {
   display: flex;
   height: 75%;
   width: 95%;
@@ -28,7 +27,7 @@
   margin-inline-start: 50px;
 }
 
-.cuadroContact {
+.squareContact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,53 +37,57 @@
   background: #1A3052;
 }
 
-.centrar{
+.center{
   display:flex;
   flex-direction: column;
   align-items: center;
   height: 90%;
   width: 90%;
   word-wrap: break-word;
-  & h1{
-    text-align: center;
-    padding: 0px 70px 5px 70px;
-    //word-wrap: break-word;
-    //word-break: break-all;
-    font-size:  2.8em;
-    font-family: Playfair Display;
-    color: #FFFFFF;
-  }
-  & hr{
-    border-top: 0px solid #D9B081 !important;
-    padding: 0;
-    margin-top: 0.4em !important;
-    border-width: 1px !important;
-    //width: 245px;
-    width: 80px;
-    }
-    & .subtitle{
-      margin:10px;
-      text-align: center;
-      font-size: 22px;
-      font-family: Oswald;
-      color:#D9B081;
-    }
-    & .text{
-      text-align: center;
-      font-size: 13px;
-      font-family: Roboto Slab;
-      color:#FFFFFF;
-      line-height: 1.9;
-      margin: 2px;
-    }
-    & .temp{
-      height: 10%;
-      width: 60%;
-      margin: 30px;
-    }
+& h1{
+  text-align: center;
+  padding: 0px 70px 5px 70px;
+  //word-wrap: break-word;
+  //word-break: break-all;
+  font-size:  2.8em;
+  font-family: Playfair Display;
+  color: #FFFFFF;
 }
 
-.cuadroGallery {
+  & hr{
+  border-top: 0px solid #D9B081 !important;
+  padding: 0;
+  margin-top: 0.4em !important;
+  border-width: 1px !important;
+  //width: 245px;
+  width: 80px;
+}
+
+ & .subtitle{
+  margin:10px;
+  text-align: center;
+  font-size: 22px;
+  font-family: Oswald;
+  color:#D9B081;
+}
+
+ & .text{
+  text-align: center;
+  font-size: 13px;
+  font-family: Roboto Slab;
+  color:#FFFFFF;
+  line-height: 1.9;
+  margin: 2px;
+}
+
+& .temp{
+  height: 10%;
+  width: 60%;
+  margin: 30px;
+ }
+}
+
+.squareGallery {
   height: 100%;
   width: 65%;
 }
@@ -95,6 +98,7 @@
   margin-inline-end: 30px;
   align-items: center;
 }
-.Boton{
-margin-inline-start:40px ;
+
+.Button4{
+  margin-inline-start:40px ;
 }

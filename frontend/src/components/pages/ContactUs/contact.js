@@ -3,9 +3,9 @@ import React from 'react';
 import linea2 from './imagen/linea2.png';
 import style from './style.module.scss';
 
-function Contact() {
+function Contact({isHome}) {
   return (
-    <div className={style.contenedor}>
+    <div className={`${isHome? style.contenedor : style.containerModal}`} >
       <div className={style.square}>
         <h1 className={style.titulo2}>
           Contact

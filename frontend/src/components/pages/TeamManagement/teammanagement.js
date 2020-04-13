@@ -5,20 +5,20 @@ import Footer from '../../ Footer/footer';
 import Boton from '../../Boton/boton';
 import Gallery from '../../carrousel/carrousel';
 
-import fondo from './imagen/francisco.png';
+import fondo from './imagen/management.png';
 import tmanagement from './tmanagement.module.scss';
 
 function TeamManagement() {
   return (
     <div>
-      <div className={tmanagement.comp}>
-        <div className={tmanagement.capa}>
+      <div className={tmanagement.component}>
+        <div className={tmanagement.cap}>
           <Navbar />
-          <div className={tmanagement.cuadimg}>
-            <img src={fondo} className={tmanagement.cuadimg} />
-            <div className={tmanagement.cuadro}>
-              <div className={tmanagement.cuadroContact}>
-                <div className={tmanagement.centrar}>
+          <div className={tmanagement.squareImg}>
+            <img src={fondo} className={tmanagement.squareImg} />
+            <div className={tmanagement.Square}>
+              <div className={tmanagement.squareContact}>
+                <div className={tmanagement.center}>
                   <h1>Team Management</h1>
                   <hr />
                   <span className={tmanagement.subtitle}>MAKING THE NEXT CHAMPIONS</span>
@@ -34,10 +34,10 @@ function TeamManagement() {
                     relationship between professionals and patrons so come match day the only thought is the
                     game itself.
                   </p>
-                  <Boton pepe={tmanagement.Boton} />
+                  <Boton ButtonTwo={tmanagement.Button4} />
                 </div>
               </div>
-              <div className={tmanagement.cuadroGallery}>
+              <div className={tmanagement.squareGallery}>
                 <div className={tmanagement.Gallery}>
                   <Gallery />
                 </div>

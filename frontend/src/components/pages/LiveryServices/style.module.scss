@@ -11,7 +11,7 @@
     justify-content: center;
     position: relative;
 }
-.rectangleuno{
+.rectangleOne{
     margin-block-start: 100px;
     display:flex;
     flex-direction: column;
@@ -20,33 +20,35 @@
     background-color:#1A3052;
     margin-block-end:110px;
 }
-.titulouno{
-font-size: 2.9em;
- font-family: PlayfairDisplay;
- color:#FFFFFF;
- padding-block-start: 40px;
- justify-content: center;
- margin: 5% auto;
- text-align: center;
+.titleOne{
+   font-size: 2.9em;
+   font-family: PlayfairDisplay;
+   color:#FFFFFF;
+   padding-block-start: 40px;
+   justify-content: center;
+   margin: 5% auto;
+   text-align: center;
 }
-.subtitulo{
-    font-size: 22px;
-    font-family: Oswald;
-    color:#D9B081;
-    display:flex;
-    justify-content: center;
-    padding-block-start: 10px;
-    padding-block-end: 15px;
+
+.subtitle{
+   font-size: 22px;
+   font-family: Oswald;
+   color:#D9B081;
+   display:flex;
+   justify-content: center;
+   padding-block-start: 10px;
+   padding-block-end: 15px;
 }
+
  .text{
- font-size: 13px;
- font-family: Roboto Slab;
- color:#FFFFFF;
- text-align: center;
- line-height: 1.7;
- margin: 6px 5px 15px;
- padding-inline-start: 10px;
- padding-inline-end: 10px;
+   font-size: 13px;
+   font-family: Roboto Slab;
+   color:#FFFFFF;
+   text-align: center;
+   line-height: 1.7;
+   margin: 6px 5px 15px;
+   padding-inline-start: 10px;
+   padding-inline-end: 10px;
  }
 .hr{
     width: 13%;
@@ -54,7 +56,8 @@ font-size: 2.9em;
     background-color:#D9B081;
     margin: 0 auto 1em;
  }
- .botondos{
+
+ .button2{
     margin-inline-start: 14%;
     margin-block-start: 7%;
     margin-inline-end: 15%;

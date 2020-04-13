@@ -21,6 +21,7 @@ footer {
   justify-content: space-between;
   width: 70px;
 }
+
 .labeltext {
   line-height: 2.0;
   color: #c5cbd3;
@@ -32,15 +33,15 @@ footer {
   font-size: 20px;
   color: #c5cbd3;
   display: flex;
- 
 }
+
 .row1 {
   width: 160px;
   flex-direction: column;
   display: flex;
   margin-inline-start: 15%;
- 
 }
+
 .row2 {
   width: 298px;
   display: flex;
@@ -49,6 +50,7 @@ footer {
   margin-block-start: 2%;
   margin-inline-end: 70px;
 }
+
 .row3 {
   width: 208px;
   display: flex;
@@ -66,17 +68,19 @@ footer {
   text-align: right;
 }
 
-.imagen3 {
+.image3 {
   width: 90px;
   margin-inline-start: 55%;
   align-self: flex-end;
 }
+
 .logo{
   width: 40px;
   height: 28px;
   margin-block-end: 5px;
 }
-.imagen1 {
+
+.image1 {
   height: 100px;
   margin-block-end: 20%;
 }
