@@ -1,0 +1,51 @@
+.modal{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	min-height: 100vh;
+	min-width: 100vw;
+	background-color: rgba(0, 0, 0, 0.685);
+	animation-duration: .5s;
+	animation-name: modal;
+}
+
+@keyframes modal {
+	from {
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+.BotonCerrar {
+	position: absolute;
+	top: 1%;
+	  right: 1%;
+  
+	  [class*="icono"] {
+		  margin-left: 2px;
+	  }
+  }
+
+.btn {
+	position: absolute;
+	border-radius: 50%;
+	padding: 0;
+	margin: 0;
+	width: 65px;
+	height: 65px;
+	background-color: rgba(0, 0, 0, 0.452);
+	transition: all .5s ease;
+	border: 3px solid white;
+	outline: none;
+
+	&:hover {
+		cursor: pointer;
+		background-color: black;
+	}
+}

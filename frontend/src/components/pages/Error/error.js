@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../../navbar/navbar';
 import Footer from '../../ Footer/footer';
 
-import LiveryServices from './liveryserv';
+import MError from './mensaje';
 import style from './style.module.scss';
 
 const Error = () => (
@@ -11,7 +11,7 @@ const Error = () => (
     <div className={style.cap}>
       <div>
         <Navbar />
-        <LiveryServices />
+        <MError />
         <Footer />
       </div>
     </div>

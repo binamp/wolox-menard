@@ -4,13 +4,16 @@
   display: flex;
   justify-content: left;
 }
+.container2space{
+  margin-inline-start: 20px;
+  margin-block-start: 19%;
+  margin-block-end: 13%;
+}
 .container2 {
   width: 750px;
   height: 420px;
   background-color: #1a3052;
-  margin-inline-start: 20px;
-  margin-block-start: 19%;
-  margin-block-end: 13%;
+  
 }
 .container3 {
   display: flex;
