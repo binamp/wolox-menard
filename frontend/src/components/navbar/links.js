@@ -17,8 +17,7 @@ const Links = (props) => (
       <div className={navstyle.spacer} />
       <div className={navstyle.toolBarItems}>
         <ul>
-          {
-          props.link.map((list, index) => (
+          {props.link.map((list, index) => (
             // eslint-disable-next-line react/no-array-index-key
             <li key={index}>
               <NavLink

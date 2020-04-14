@@ -3,15 +3,15 @@
 footer {
   background: #1a3052;
   width: 100%;
-  height: 234px;
+  height: 190px;
 }
 
 .containerbody {
   display: flex;
   align-self: flex-end;
-  height: 174px;
+  height: 154px;
   padding-block-start: 60px;
-  padding-inline-start: 60px;
+  padding-inline-start: 50px;
   padding-inline-end: 60px;
   align-items: center;
 }
@@ -21,58 +21,66 @@ footer {
   justify-content: space-between;
   width: 70px;
 }
-label {
-  line-height: 1.8;
+
+.labeltext {
+  line-height: 2.0;
   color: #c5cbd3;
-  font-size: 14px;
+  font-size: 11px;
   font-family: Roboto Slab;
 }
 
-h1 {
-  font-size: 18px;
+.h2titulo {
+  font-size: 20px;
   color: #c5cbd3;
   display: flex;
-  margin: 2px;
 }
+
 .row1 {
-  width: 208px;
+  width: 160px;
   flex-direction: column;
   display: flex;
   margin-inline-start: 15%;
-  margin-block-end: 2%;
 }
+
 .row2 {
   width: 298px;
   display: flex;
   flex-direction: column;
-  margin-inline-start: 25px;
+  margin-inline-start: 18px;
   margin-block-start: 2%;
   margin-inline-end: 70px;
 }
+
 .row3 {
   width: 208px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-inline-start: 8%;
+  margin-inline-start:  14%;
 }
 
-.imagen4 {
+.copyryght {
+  flex-direction: column;
+  line-height: 2.0;
+  color: #c5cbd3;
+  font-size: 11px;
   display: flex;
-  width: 100%;
-  align-self: flex-end;
+  text-align: right;
 }
 
-.imagen3 {
+.image3 {
   width: 90px;
+  margin-inline-start: 55%;
   align-self: flex-end;
 }
 
-.imagen2 {
-  width: 150px;
+.logo{
+  width: 40px;
+  height: 28px;
+  margin-block-end: 5px;
 }
 
-.imagen1 {
+.image1 {
   height: 100px;
   margin-block-end: 20%;
 }
