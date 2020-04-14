@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"); //Title font.
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"); //Text font.
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap"); //Logo font.
+@import "~bootstrap/scss/bootstrap.scss";
+
+$backgroundBlue-color: #172437;
+
+$title-color: #ffffff;
+
+$subtitle-color: #d9b081;
+
+$paragraph-color: #cdd1f5;
+
+$logofont-color: #d9b081;
+
+$button-color: #d9b081;
+
+$buttonBackground-color: #172437;
+
+$hoverButton-color: #ffffff;
+
+$hoverBackground-color: #232f41;
+
+$maskBackground-color: #1724378f;
+
+$maskText-color: #ffffff;
+
+$border-color: #d9b081;
+
+//Home SECTION//
+
+.homeBackground {
+  background-image: url("../src/components/pages/Home/img/background-png.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: $backgroundBlue-color;
+}
+
+//WELCOME SECTION//
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerTitle {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  text-align: center;
+  margin-top: 304px;
+  align-items: center;
+  color: $maskText-color;
+}
+
+.paragraphContainer {
+  display: flex;
+}
+
+.paragraphContainer2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 92%;
+  margin-top: 30px;
+}
+
+.logoFont {
+  font-family: "Oswald", sans-serif;
+  color: $logofont-color;
+  font-size: 22px;
+  font-weight: unset;
+}
+
+.titleFont {
+  font-family: "Playfair Display", serif;
+  font-size: 2.7rem;
+  font-weight: inherit;
+  color: $title-color;
+}
+
+.paragraphFont {
+  font-family: "Roboto Slab", serif;
+  font-size: 11px;
+  font-weight: lighter;
+  color: $paragraph-color;
+  text-align: center;
+  width: 95%;
+}
+
+//OUR SERVICES SECTION-STYLES//
+
+.ourServsContainer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.subtitleFont {
+  margin-top: 90px;
+  font-family: "Oswald", sans-serif;
+  color: $subtitle-color;
+  font-weight: lighter;
+  font-size: xx-large;
+  margin-bottom: 7px;
+}
+
+.linkContainer {
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.link {
+  margin: 0 5px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.link .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $maskBackground-color;
+  opacity: 0;
+  transform: all 0.4s ease;
+  z-index: 10;
+}
+
+.link .mask p {
+  font-family: "Playfair Display", serif;
+  top: 47px;
+  left: 17px;
+  color: $title-color;
+  font-size: 1.5em;
+  text-align: left;
+  position: absolute;
+}
+
+.link:hover .mask {
+  opacity: 0.9;
+}
+
+.linkContainer a img {
+  display: flex;
+  max-width: 100%;
+}
+
+//CAROUSEL STYLES//
+
+.carouselContainer {
+  display: flex;
+  width: 57%;
+  margin-left: 3%;
+  margin-top: 8.5%;
+  margin-bottom: 15%;
+}
+.carousel {
+  position: absolute;
+}
+
+.carousel-indicators {
+  justify-content: flex-start;
+  margin-left: none;
+}
+
+//BUTTON - CONTACT US STYLES//
+
+.button {
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  color: $button-color;
+  margin-top: 40px;
+  background-color: $buttonBackground-color;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  padding: 9px 100px 9px 100px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  margin-right: 46px;
+
+  &:hover {
+    background-color: $hoverBackground-color;
+    color: $hoverButton-color;
+  }
+}
+
+//CONTACT US STYLES//
+
+.contactBackground {
+  background-image: url(../src/components/pages/ContactUs/imagen/fondocontact.png);
+  background-size: 115%;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: left;
+}
+
+.square {
+  height: 180px;
+  width: 390px;
+  margin-inline-start: 50px;
+  margin-block-start: 76%;
+}
+
+.contactTitle {
+  font-size: 2.9em;
+  font-family: PlayfairDisplay;
+  color: $title-color;
+  padding-block-start: 10px;
+  justify-content: flex-end;
+  margin: 1% auto;
+  text-align: end;
+}
+
+.contactUsText {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  color: $subtitle-color;
+  font-weight: lighter;
+  display: flex;
+  text-align: end;
+  justify-content: flex-end;
+  padding-block-start: 10px;
+}
+
+.titleBorder {
+  display: flex;
+  margin-block-start: 10px;
+  margin-inline-start: 85%;
+}
+
+//FORM SECTION - STYLES//
+
+.container1 {
+  display: flex;
+  justify-content: left;
+}
+
+.container2 {
+  width: 100%;
+  height: 460px;
+  margin-right: 10%;
+  background-color: #1a3052;
+  margin-inline-start: 20px;
+  margin-block-start: 19%;
+  margin-block-end: 13%;
+  padding-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.inputStyle {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  flex-direction: column;
+}
+
+.label {
+  position: absolute;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  color: #6e96d6;
+  justify-content: flex-start;
+  margin-left: 31px;
+  margin-top: 8px;
+}
+
+.name,
+.number,
+.message,
+.email,
+.select {
+  outline: 0;
+  padding: 6px;
+  border: 1px solid #5f6f88;
+  border-radius: 4px;
+  display: flex;
+  width: 89%;
+  background-color: #1a3052;
+  resize: none;
+  align-self: center;
+  font-family: "Oswald", sans-serif;
+  color: #6e96d6;
+  margin-top: 30px;
+}
+
+.inputStyle2 {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.formButton {
+  border-radius: 2px;
+  border: 1px solid $border-color;
+  color: $subtitle-color;
+  background-color: #1a3052;
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  text-decoration: none;
+  width: 334.5px;
+  height: 40px;
+  padding-top: 8px;
+  margin-top: 57%;
+  margin-left: 20px;
+
+  &:hover {
+    color: $title-color;
+    background-color: $hoverBackground-color;
+  }
+}
+
+.alertaError {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 6px;
+  color: #a10505;
+  font-size: 15px;
+  border: 1px solid #a10505;
+  border-radius: 2px;
+  width: 23%;
+  padding: 2px;
+}

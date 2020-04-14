@@ -12,7 +12,7 @@ import image5 from './img/image 5.jpg';
 function Carrousel(props) {
   return (
     <div className={styles.carouselContainer}>
-      <Carousel className={styles.carousel} controls={false} interval={2000}>
+      <Carousel className={styles.carousel} controls={false} interval={3500}>
         <Carousel.Item className={styles.items}>
           <img className="d-block w-100" src={image1} alt="First slide" />
         </Carousel.Item>

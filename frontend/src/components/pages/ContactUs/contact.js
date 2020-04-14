@@ -1,7 +1,6 @@
-import React from 'react';
-
-import linea2 from './imagen/linea2.png';
-import style from './style.module.scss';
+import React from "react";
+import linea2 from "./imagen/linea2.png";
+import style from "../../../../src/styles.module.scss";
 
 function Contact() {
   return (
