@@ -2,8 +2,9 @@ import React from 'react';
 
 import Formu from '../pages/ContactUs/formu';
 
+
+import linea2 from './iconos/linea2.png';
 import style from './modal.module.scss';
-import cruz from './iconos/cruz.svg';
 import Boton from './cerrar';
 
 class Modal extends React.Component {
@@ -14,8 +15,19 @@ class Modal extends React.Component {
     console.log(seleccion);
     return (
       <div className={style.modal}>
-        <Boton icono={cruz} onClick={this.cerrar} className={style.BotonCerrar} />
-        <Formu />
+        <Boton onClick={this.cerrar} className={style.BotonClose} />
+        <div isHome={this.props.isHome} className={style.containerModal}>
+          <div className={style.containerTwo}>
+            <h1 className={style.titulo2}>Contact us</h1>
+            <img src={linea2} alt="linea" className={style.linea2} />
+            <span className={style.subtitulo2}>
+              PLEASE SEND US YOUR QUESTIONS
+              <br />
+              OR ENQUIRIES BY COMPLETING THIS FORM{' '}
+            </span>
+          </div>
+          <Formu isHome={this.props.isHome} />
+        </div>
       </div>
     );
   }

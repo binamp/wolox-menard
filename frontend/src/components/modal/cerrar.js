@@ -1,13 +1,17 @@
-
 import React from 'react';
 
 import styles from './modal.module.scss';
 
-function Boton({ onClick, className, icono }) {
+function Boton({ onClick, className }) {
   return (
+    <div>
     <button type="button" onClick={onClick} className={`${styles.btn} ${className}`}>
-      <img src={icono} className={styles.icono} alt="icono" />
+      Close X
     </button>
+    <button type="button" onClick={onClick} className={`${styles.btn2} ${className}`}>
+     X
+    </button>
+    </div>
   );
 }
 

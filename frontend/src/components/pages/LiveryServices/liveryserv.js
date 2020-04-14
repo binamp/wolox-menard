@@ -8,14 +8,14 @@ class LiveryService extends React.Component {
   render() {
     return (
       <div className={style.rectangle}>
-        <div className={style.rectangleuno}>
-          <h1 className={style.titulouno}>
+        <div className={style.rectangleOne}>
+          <h1 className={style.titleOne}>
             Livery
             <br />
             Services
           </h1>
           <hr className={style.hr} />
-          <span className={style.subtitulo}>THE CARE THAT YOUR HORSES NEEDS</span>
+          <span className={style.subtitle}>THE CARE THAT YOUR HORSES NEEDS</span>
           <p className={style.text}>
             Mendar Polo offers an inclusive livery service which provides the highest standard of care for
             horses. We are able to tailor our service to meet you and your horses needs. With our coaches and
@@ -27,7 +27,7 @@ class LiveryService extends React.Component {
             Mendar Polo also runs a winter livery and turn out service insuring that all horses will be looked
             after with the utmost care minimising any risk whilst you relax and take a deserved winter break.
           </p>
-          <Boton pepe={style.botondos} />
+          <Boton ButtonTwo={style.button2} />
         </div>
       </div>
     );

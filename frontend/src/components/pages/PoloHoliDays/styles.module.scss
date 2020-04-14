@@ -22,6 +22,15 @@
   margin-top: 14%;
 }
 
+.container{
+  height: 376px;
+  width: 738px;
+  margin-block-start: 15%;
+  margin-inline-start:4%;
+  margin-inline-end: 50px;
+  position: relative;
+}
+
 .title {
   font-family: "Playfair Display", serif;
   font-size: 2.7rem;
@@ -30,10 +39,12 @@
   align-items: flex-start;
   margin-bottom: 5%;
 }
+
 .border {
   display: flex;
   align-self: self-start;
 }
+
 .verticalBoder {
   display: flex;
   position: absolute;
@@ -50,7 +61,7 @@
 
 .description {
   font-family: "Roboto Slab", serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: lighter;
   color: #cdd1f5;
   text-align: left;
@@ -70,10 +81,10 @@
   margin-bottom: 100px;
   margin-left: 100px;
   cursor: pointer;
-}
-.boton:hover {
+&.boton:hover {
   background-color: #232f41;
   color: #ffffff;
+ }
 }
 
 .carousel-indicators {

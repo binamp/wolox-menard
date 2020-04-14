@@ -1,29 +1,33 @@
-import React from "react";
-import styles from "./styles.module.scss";
-import image from "./img/Polo lessons 1.svg";
-import image2 from "./img/Polo holidays 2.svg";
-import image3 from "./img/Team management 3.svg";
-import image4 from "./img/Horses for sale 4.svg";
-import image5 from "./img/Delivery services 5.svg";
-import secondBorder from "./img/Trazado 123.svg";
-import thirdLine from "./img/Trazado 123.svg";
-import Boton from "../../Boton/boton";
+import React from 'react';
+
+import Boton from '../../Boton/boton';
 import Modal from '../../modal/modal';
 
-class OurServices extends React.Component {
+import styles from './styles.module.scss';
+import image from './img/Polo lessons 1.svg';
+import image2 from './img/Polo holidays 2.svg';
+import image3 from './img/Team management 3.svg';
+import image4 from './img/Horses for sale 4.svg';
+import image5 from './img/Delivery services 5.svg';
+import secondBorder from './img/Trazado 123.svg';
+import thirdLine from './img/Trazado 123.svg';
 
+class OurServices extends React.Component {
   state = {
-    show:false
-  }
+    show: false,
+  };
+
   IsOpen = () => {
     this.setState({ show: true });
   };
-  //esta funcion es llamado desde el componente Texto mediante prop, con el boton llama a la funcion y convierte al state en falso y deja de renderizar
+
+  // esta funcion es llamado desde el componente Texto mediante prop, con el boton llama a la funcion y convierte al state en falso y deja de renderizar
   CerrarTexto = () => {
     this.setState({ show: false });
   };
+
   render() {
-  return (
+    return (
       <div className={styles.ourServsContainer}>
         <h2 className={styles.subtitleFont}>OUR SERVICES</h2>
         <img src={secondBorder} />
@@ -83,11 +87,10 @@ class OurServices extends React.Component {
         <div>
           <img src={thirdLine} />
         </div>
-        {this.state.show && <Modal Cerrar={this.CerrarTexto} />}
-        <Boton Abrir={this.IsOpen}/>
+        {this.state.show && <Modal Cerrar={this.CerrarTexto} isHome />}
+        <Boton Abrir={this.IsOpen} ButtonTwo={styles.buttonHome} />
       </div>
     );
   }
 }
-
 export default OurServices;
