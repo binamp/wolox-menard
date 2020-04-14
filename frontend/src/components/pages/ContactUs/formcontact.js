@@ -5,7 +5,6 @@ import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 
 const Form = () => {
-  //crear State
   const [formulario, actualizarForm] = useState({
     nombre: "",
     numero: "",
@@ -25,16 +24,14 @@ const Form = () => {
     });
   };
 
-  //Extraer valores
+  //Extraje valores
 
   const { nombre, numero, mensaje, correo, seleccion } = formulario;
-
-  // cuando presionamos enviar
 
   const submitForm = (e) => {
     e.preventDefault();
 
-    //validar
+    //validacion
 
     if (
       nombre.trim() === "" ||
@@ -46,10 +43,10 @@ const Form = () => {
       actualizarError(true);
       return;
     }
-    //Eliminar el mensaje de error
+    //Eliminando el mensaje de error
     actualizarError(false);
 
-    //reiniciar form
+    //reiniciar formulario
 
     actualizarForm({
       nombre: "",
