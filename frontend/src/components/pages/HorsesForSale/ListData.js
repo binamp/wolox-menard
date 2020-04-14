@@ -3,7 +3,7 @@ import imagen3 from './imagenes/jack.png';
 import imagen2 from './imagenes/cinnamon.png';
 import imagen1 from './imagenes/thunder.png';
 
-const images = [
+const ListData = [
   {
     id: 1,
     title: 'Thunder',
@@ -46,4 +46,4 @@ const images = [
   }
 ];
 
-export default images;
+export default ListData;

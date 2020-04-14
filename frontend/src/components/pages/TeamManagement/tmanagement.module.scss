@@ -15,7 +15,6 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  border: 3px yellow solid;
   background: linear-gradient(to bottom left, transparent 54.5%, #172437 0%) left/120% 111% no-repeat,
   url("../../../image/TeamManagement/bm.png")  center/cover no-repeat;
   background-attachment: scroll;
@@ -29,7 +28,6 @@
   height: 65%;
   width: 95%;
   margin: 10px;
-  border: green 3px solid;
   bottom: 500px;
   top: 500px;
 }
@@ -40,7 +38,6 @@
   justify-content: center;
   height: 100%;
   width: 45%;
-  border: violet 1px solid;
   margin-right: 3px;
   background: #1A3052;
 }
@@ -52,7 +49,6 @@
   height: 90%;
   width: 90%;
   word-wrap: break-word;
-  border:yellow 1px solid;
   & h1{
     text-align: center;
     padding: 10px 70px 10px 70px;
@@ -97,11 +93,9 @@
 .cuadroGallery {
   height: 100%;
   width: 65%;
-  border: rgb(158, 11, 0) 1px solid;
 }
 
 .Gallery {
   height: 80%;
-  border: lightblue 2px solid;
   background: lightblue;
 }
