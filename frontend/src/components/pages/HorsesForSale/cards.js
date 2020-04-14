@@ -14,7 +14,6 @@ class Card extends React.Component {
     this.setState({ show: true });
   };
 
-  // esta funcion es llamado desde el componente Texto mediante prop, con el boton llama a la funcion y convierte al state en falso y deja de renderizar
   CerrarTexto = () => {
     this.setState({ show: false });
   };
