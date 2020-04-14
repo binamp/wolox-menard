@@ -8,7 +8,8 @@
 	min-width: 100vw;
 	background-color: rgba(0, 0, 0, 0.685);
     animation-duration: .5s;
-    animation-name: modal;
+	animation-name: modal;
+	z-index: 2;
 }
 
 @keyframes modal {
