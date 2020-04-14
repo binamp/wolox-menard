@@ -1,27 +1,69 @@
-.column{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-}
 .cards{
-  margin-block-start: 10%;
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+  height: 100%;
+  width: 75%;
+  background-color: #172437;
 }
+
 .card {
-  background-color: rgb(145, 114, 114);
-  display: inline-block;
-  height: 579px;
-  width: 356px;
-  margin:10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  word-wrap: break-word;
+  margin-bottom: 10px;
 }
-.backgroundtriangle {
-  border-top: 86em solid transparent;
-  border-right: 75em solid #172437;; 
-  display: inline-block;
-  position: absolute;
-  top: -86%;
-  right: -5%;
-  z-index: -2; 
-  overflow: hidden;
+
+.title{
+  color: #D9B081;
+  font-size: 22px;
+  font-family: Oswald;
+}
+
+.cuadrodata{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 50%;
+  width: 90%;
+  word-break: break-all;
+}
+
+.data{
+  height: 100%;
+  width: 30%;
+}
+.cuadrodatatext{
+  display:flex;
+  flex-direction: row;
+  & p {
+    margin:0px;
+    margin-right: 50px;
+  }
+  & .text {
+    font-size: 10px;
+    color: lightblue;
+  }
+}
+.datatitle{
+  display:flex;
+  flex-direction: row;
+}
+.spaceabout {
+  border-top: 1px rgb(25, 58, 109) solid;
+  border-bottom: 1px rgb(25, 58, 109) solid;
+  & p{
+    margin:0px;
+    margin-right: 50px;
+    color: lightblue;
+  }
+}
+.imghorses{
+  height: 50.5%;
+  width: 100%;
 }
 
