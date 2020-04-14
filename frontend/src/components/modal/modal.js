@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Formu from '../pages/ContactUs/formu';
+import Formu from '../pages/ContactUs/formcontact';
 
 import linea2 from './iconos/linea2.png';
 import style from './modal.module.scss';

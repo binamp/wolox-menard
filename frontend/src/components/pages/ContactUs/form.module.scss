@@ -2,7 +2,7 @@
 
 .container2 {
   width: 750px;
-  height: 420px;
+  height: 440px;
   background-color: #1a3052;
   
 }
@@ -18,51 +18,7 @@
   margin-block-start: 8px;
   margin-inline-start: 24%;
 }
-.name,
-.namber,
-textarea {
-  outline: 0;
-  padding: 1em;
-  border: 2px solid #5f6f88;
-  border-radius: 5px;
-  display: flex;
-  width: 160%;
-  margin: 20px;
-  background-color: #1a3052;
-  resize: none;
-}
 
-textarea {
-  height: 226px;
-}
-.email {
-  background-color: #1a3052;
-  outline: 0;
-  padding: 1em;
-  border-radius: 5px;
-  border: 2px solid #5f6f88;
-  display: flex;
-  width: 113%;
-  margin: 20px;
-  align-items: flex-end;
-}
-input [placeholder] {
-  font-family: Oswald;
-  font-size: 10px;
-  color: #6e96d6;
-}
-select {
-  background-color: #1a3052;
-  outline: 0;
-  padding: 1em;
-  border-radius: 5px;
-  border: 2px solid #5f6f88;
-  display: flex;
-  height: 39px;
-  width: 121%;
-  margin: 20px;
-  align-items: center;
-}
 .button {
   position: absolute;
   border-radius: 5px;

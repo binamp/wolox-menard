@@ -193,51 +193,6 @@ $border-color: #d9b081;
   }
 }
 
-//CONTACT US STYLES//
-
-.contactBackground {
-  background-image: url(../src/components/pages/ContactUs/imagen/fondocontact.png);
-  background-size: 115%;
-}
-
-.contactContainer {
-  display: flex;
-  justify-content: left;
-}
-
-.square {
-  height: 180px;
-  width: 390px;
-  margin-inline-start: 50px;
-  margin-block-start: 76%;
-}
-
-.contactTitle {
-  font-size: 2.9em;
-  font-family: PlayfairDisplay;
-  color: $title-color;
-  padding-block-start: 10px;
-  justify-content: flex-end;
-  margin: 1% auto;
-  text-align: end;
-}
-
-.contactUsText {
-  font-size: 20px;
-  font-family: "Oswald", sans-serif;
-  color: $subtitle-color;
-  font-weight: lighter;
-  display: flex;
-  text-align: end;
-  justify-content: flex-end;
-  padding-block-start: 10px;
-}
-
-.titleBorder {
-  display: flex;
-  margin-block-start: 10px;
-  margin-inline-start: 85%;
-}
 
 //FORM SECTION - STYLES//
 
@@ -247,16 +202,14 @@ $border-color: #d9b081;
 }
 
 .container2 {
-  width: 100%;
-  height: 460px;
-  margin-right: 10%;
+  width: 750px;
+  height: 420px;
   background-color: #1a3052;
-  margin-inline-start: 20px;
-  margin-block-start: 19%;
-  margin-block-end: 13%;
-  padding-bottom: 50px;
+  
 }
-
+.container3 {
+  display: flex;
+}
 .form {
   display: flex;
   flex-direction: row;
@@ -333,10 +286,10 @@ $border-color: #d9b081;
 .alertaError {
   font-family: "Oswald", sans-serif;
   text-align: center;
-  margin-left: 15px;
-  margin-top: 6px;
+  margin-left: 25px;
+ 
   color: #a10505;
-  font-size: 15px;
+  font-size: 13px;
   border: 1px solid #a10505;
   border-radius: 2px;
   width: 23%;

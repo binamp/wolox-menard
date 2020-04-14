@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from "react";
-import Contact from "./contact";
 import styles from "../../../../src/styles.module.scss";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
@@ -57,18 +56,17 @@ const Form = () => {
     });
     Swal.fire({
       title: "Mensaje enviado.",
-      footer: "Copyright 2018",
+      footer: "Copyright 2020",
     });
     return;
   };
 
   return (
     <Fragment>
-      <div className={styles.container1}>
-        <Contact />
+      <div>
         <div className={styles.container2}>
           {error ? (
-            <p className={styles.alertaError}>ALL FIELDS ARE REQUIRED...</p>
+            <span className={styles.alertaError}>ALL FIELDS ARE REQUIRED...</span>
           ) : null}
           <form
             action="http://jkorpela.fi/cgi-bin/echo.cgi?"
