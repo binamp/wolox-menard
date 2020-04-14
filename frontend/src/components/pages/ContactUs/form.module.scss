@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab&display=swap");
 
-.container1 {
-  display: flex;
-  justify-content: left;
-}
-
-.container2space{
-  margin-inline-start: 20px;
-  margin-block-start: 19%;
-  margin-block-end: 13%;
-}
 .container2 {
   width: 750px;
   height: 420px;
@@ -88,7 +78,7 @@ select {
   transition: 0.3s;
   width: 308px;
   height: 40px;
-  margin-inline-start: 21em;
+  margin-inline-start: 20em;
   margin-block-start: 28%;
   &:hover {
     color: #ffffff;

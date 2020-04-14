@@ -23,8 +23,8 @@
 }
 .BotonClose {
 	position: absolute;
-	top: 82%;
-	right: 40%;
+	top: 90%;
+	right: 50%;
 }
 
 .btn {
@@ -33,7 +33,7 @@
 	margin: 0;
 	width: 60px;
 	height: 35px;
-	background-color: rgba(0, 0, 0, 0.452);
+	background-color: transparent;
 	transition: all .5s ease;
 	color: #d9b081;
 	outline: none;
@@ -42,3 +42,53 @@
 	color:white;
    }
 }
+.btn2 {
+	top: 28%;
+	right: 20%;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 60px;
+	height: 35px;
+	background-color: transparent;
+	transition: all .5s ease;
+	color:  #5f6f88;
+	outline: none;
+    &:hover {
+	cursor: pointer;
+	color:white;
+   }
+}
+
+.containerModal{
+    display: flex;
+    flex-direction:column;
+    margin:0 auto;
+}
+
+.titulo2{
+	font-size: 2.9em;
+	font-family: PlayfairDisplay;
+	color:#FFFFFF;
+	margin-inline-start:90px;
+	padding-block-start: 25px;
+	float:left;
+	padding-block-end: 25px;
+}
+	   
+.subtitulo2{
+	font-size: 25px;
+    font-family: Oswald;
+    color: #D9B081;
+    display: flex;
+    text-align: start;
+    padding-inline-start: 18px;
+    padding-block-start: 11px;
+    float: left;
+}
+
+.linea2{
+	margin-inline-start: -122%;
+    padding-block-start: 80px;
+}
+	   
