@@ -8,11 +8,8 @@ function Welcome() {
   return (
     <div className={styles.container}>
       <div className={styles.containerTitle}>
-        <h1 className={styles.titleFont}>
-          Welcome to
-          <br />
-          the best polo experience
-        </h1>
+        <span className={styles.titleFont}>Welcome to</span>
+        <span className={styles.titleFont}>the best polo experience</span>
         <img src={Border} />
         <p className={styles.logoFont}>WELCOME TO</p>
         <img src={Logo} />

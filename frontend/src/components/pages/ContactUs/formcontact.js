@@ -1,55 +1,133 @@
-import React from "react";
-
+import React, { Fragment, useState } from "react";
 import Contact from "./contact";
 import styles from "../../../../src/styles.module.scss";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
-function Form() {
+const Form = () => {
+  //crear State
+  const [formulario, actualizarForm] = useState({
+    nombre: "",
+    numero: "",
+    mensaje: "",
+    correo: "",
+    seleccion: "",
+  });
+
+  const [error, actualizarError] = useState(false);
+
+  //Funcion del usuario escribiendo en el imput
+
+  const handleChange = (e) => {
+    actualizarForm({
+      ...formulario,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  //Extraer valores
+
+  const { nombre, numero, mensaje, correo, seleccion } = formulario;
+
+  // cuando presionamos enviar
+
+  const submitForm = (e) => {
+    e.preventDefault();
+
+    //validar
+
+    if (
+      nombre.trim() === "" ||
+      numero.trim() === "" ||
+      mensaje.trim() === "" ||
+      correo.trim() === "" ||
+      seleccion.trim() === ""
+    ) {
+      actualizarError(true);
+      return;
+    }
+    //Eliminar el mensaje de error
+    actualizarError(false);
+
+    //reiniciar form
+
+    actualizarForm({
+      nombre: "",
+      numero: "",
+      mensaje: "",
+      correo: "",
+      seleccion: "",
+    });
+    Swal.fire({
+      title: "Mensaje enviado.",
+      footer: "Copyright 2018",
+    });
+    return;
+  };
+
   return (
-    <div className={styles.container1}>
-      <Contact />
-      <div className={styles.container2}>
-        <div className={styles.container3}>
-          <div className={styles.form1}>
-            <form>
+    <Fragment>
+      <div className={styles.container1}>
+        <Contact />
+        <div className={styles.container2}>
+          {error ? (
+            <p className={styles.alertaError}>ALL FIELDS ARE REQUIRED...</p>
+          ) : null}
+          <form
+            action="http://jkorpela.fi/cgi-bin/echo.cgi?"
+            onSubmit={submitForm}
+            className={styles.form}
+          >
+            <div className={styles.inputStyle}>
               <label for="name" className={styles.label}>
                 FULL NAME
               </label>
               <br />
               <input
-                name="name"
+                name="nombre"
                 className={styles.name}
                 placeholder="FULL NAME"
                 type="text"
-                value=""
+                onChange={handleChange}
+                value={nombre}
               />
 
               <input
-                name="phonenumber"
-                className={styles.namber}
+                name="numero"
+                className={styles.number}
                 placeholder="PHONE NUMBER"
-                type="namber"
-                value=""
+                type="tel"
+                onChange={handleChange}
+                value={numero}
               />
               <textarea
+                name="mensaje"
                 placeholder="MESSAGE"
                 className={styles.message}
-                cols="20"
+                cols="15"
                 rows="8"
                 type="text"
-                value=""
+                onChange={handleChange}
+                value={mensaje}
               />
-            </form>
-          </div>
-          <div className={styles.form2}>
-            <form>
+            </div>
+
+            <div className={styles.inputStyle2}>
               <input
                 type="email"
                 className={styles.email}
                 placeholder="E-MAIL ADDRESS"
-                name="email"
-                value=""
+                name="correo"
+                onChange={handleChange}
+                value={correo}
               />
-              <select className={styles.select} type="select" value="">
+              <select
+                name="seleccion"
+                className={styles.select}
+                type="select"
+                onChange={handleChange}
+                value={seleccion}
+              >
                 <option value="ss">SELECT A SUBJECT(S) </option>
                 <option value="pl">polo lessons </option>
                 <option value="ph">polo holidays</option>
@@ -57,13 +135,19 @@ function Form() {
                 <option value="tm">team management</option>
                 <option value="hfs">horses for sale</option>
               </select>
-            </form>
-          </div>
-          <button className={styles.formButton}>SEND FORM</button>
+              <button
+                type="submit"
+                name="formButton"
+                className={styles.formButton}
+              >
+                SEND FORM
+              </button>
+            </div>
+          </form>
         </div>
       </div>
-    </div>
+    </Fragment>
   );
-}
+};
 
 export default Form;

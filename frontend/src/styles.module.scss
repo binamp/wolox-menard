@@ -30,7 +30,7 @@ $border-color: #d9b081;
 //Home SECTION//
 
 .homeBackground {
-  background-image: url("../src/components/pages/Home/img/Background\ image.jpg");
+  background-image: url("../src/components/pages/Home/img/background-png.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-color: $backgroundBlue-color;
@@ -51,6 +51,7 @@ $border-color: #d9b081;
   text-align: center;
   margin-top: 304px;
   align-items: center;
+  color: $maskText-color;
 }
 
 .paragraphContainer {
@@ -128,7 +129,7 @@ $border-color: #d9b081;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #1724378f;
+  background: $maskBackground-color;
   opacity: 0;
   transform: all 0.4s ease;
   z-index: 10;
@@ -138,7 +139,7 @@ $border-color: #d9b081;
   font-family: "Playfair Display", serif;
   top: 47px;
   left: 17px;
-  color: #ffffff;
+  color: $title-color;
   font-size: 1.5em;
   text-align: left;
   position: absolute;
@@ -199,10 +200,6 @@ $border-color: #d9b081;
   background-size: 115%;
 }
 
-.cap {
-  background-color: #0000004d;
-}
-
 .contactContainer {
   display: flex;
   justify-content: left;
@@ -218,7 +215,7 @@ $border-color: #d9b081;
 .contactTitle {
   font-size: 2.9em;
   font-family: PlayfairDisplay;
-  color: #ffffff;
+  color: $title-color;
   padding-block-start: 10px;
   justify-content: flex-end;
   margin: 1% auto;
@@ -251,7 +248,7 @@ $border-color: #d9b081;
 
 .container2 {
   width: 100%;
-  height: 420px;
+  height: 460px;
   margin-right: 10%;
   background-color: #1a3052;
   margin-inline-start: 20px;
@@ -260,79 +257,88 @@ $border-color: #d9b081;
   padding-bottom: 50px;
 }
 
-.container3 {
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
 }
 
-.form1 {
-  width: 50%;
+.inputStyle {
   display: flex;
-  flex-direction: column;
-}
-
-.form2 {
+  justify-content: space-between;
   width: 50%;
-  display: flex;
   flex-direction: column;
-  margin-top: 23px;
 }
 
 .label {
+  position: absolute;
   display: flex;
   font-family: "Oswald", sans-serif;
+  font-size: 12px;
   color: #6e96d6;
   justify-content: flex-start;
-  position: absolute;
   margin-left: 31px;
-  margin-top: 18px;
+  margin-top: 8px;
 }
 
 .name,
-.namber,
-textarea,
+.number,
+.message,
 .email,
 .select {
   outline: 0;
-  padding: 8px;
+  padding: 6px;
   border: 1px solid #5f6f88;
   border-radius: 4px;
   display: flex;
   width: 89%;
-  margin: 20px;
   background-color: #1a3052;
   resize: none;
   align-self: center;
   font-family: "Oswald", sans-serif;
   color: #6e96d6;
+  margin-top: 30px;
 }
 
-.message {
-  margin-left: 20px;
+.inputStyle2 {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
 }
 
 .formButton {
-  position: absolute;
-  border-radius: 3px;
+  border-radius: 2px;
   border: 1px solid $border-color;
   color: $subtitle-color;
   background-color: #1a3052;
   display: flex;
   justify-content: center;
   font-family: "Oswald", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: lighter;
-  text-align: center;
   text-decoration: none;
   width: 334.5px;
   height: 40px;
-  margin-top: 26.3%;
-  margin-left: 27.3%;
-  padding-top: 7px;
+  padding-top: 8px;
+  margin-top: 57%;
+  margin-left: 20px;
 
   &:hover {
-    color: #ffffff;
+    color: $title-color;
     background-color: $hoverBackground-color;
   }
+}
+
+.alertaError {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 6px;
+  color: #a10505;
+  font-size: 15px;
+  border: 1px solid #a10505;
+  border-radius: 2px;
+  width: 23%;
+  padding: 2px;
 }

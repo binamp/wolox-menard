@@ -1,5 +1,4 @@
 import React from "react";
-
 import linea2 from "./imagen/linea2.png";
 import styles from "../../../../src/styles.module.scss";
 
